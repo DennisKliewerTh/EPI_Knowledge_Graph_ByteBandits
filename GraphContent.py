@@ -210,3 +210,11 @@ class GraphContent:
         graph.add_new_node_to_graph(online_source_example_node)
         graph.add_new_node_to_graph(literature_source_example_node)
         graph.add_new_node_to_graph(paper_source_example_node)
+
+        my_node = Node("This is some Text", "Knoten A")
+        graph.add_new_node_to_graph(my_node)
+
+        my_node_2 = Node("Hallo wie geht es so ?","Knoten Test 2")
+        graph.add_new_node_to_graph(my_node_2)
+
+        my_node.connect(my_node_2)
