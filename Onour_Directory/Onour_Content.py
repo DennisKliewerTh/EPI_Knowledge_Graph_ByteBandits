@@ -83,5 +83,90 @@ Alan_Turing_3 = Node("Alan Turing spielte eine maßgebliche Rolle bei der Entsch
                      " bleibt ein Meilenstein in der Geschichte der Kryptographie und der technologischen Kriegsführung.",
                      "Entschlüsselung der Enigma-Maschine",)
 
+Alan_Turing_4 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_5 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_6 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_7 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_8 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_9 = Node("",
+                     "",
+                     "")
+
+Alan_Turing_10 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_11 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_12 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_13 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_14 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_15 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_16 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_17 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_18 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_19 = Node("",
+                      "",
+                      "")
+
+Alan_Turing_20 = Node("",
+                      "",
+                      "")
+
+
+Onour_Source_1 = Node("",
+                      "")
+
+Onour_Source_2 = Node("",
+                      "")
+
+Onour_Source_3 = Node("",
+                      "")
+
+Onour_Source_4 = Node("",
+                      "")
+
+Onour_Source_5 = Node("",
+                      "")
+
+
 
 
