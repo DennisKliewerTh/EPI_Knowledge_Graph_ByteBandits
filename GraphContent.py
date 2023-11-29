@@ -17,6 +17,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
+from Onour_Directory.Onour_Content import Alan_Turing_1, Alan_Turing_2, Alan_Turing_3
 
 
 class GraphContent:
@@ -210,3 +211,6 @@ class GraphContent:
         graph.add_new_node_to_graph(online_source_example_node)
         graph.add_new_node_to_graph(literature_source_example_node)
         graph.add_new_node_to_graph(paper_source_example_node)
+        graph.add_new_node_to_graph(Alan_Turing_1)
+        graph.add_new_node_to_graph(Alan_Turing_2)
+        graph.add_new_node_to_graph(Alan_Turing_3)
