@@ -18,8 +18,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 import pygame.freetype
 import sys
 
+from GraphContentLinus import GraphContentLinus
 from GraphContent import GraphContent
-from Structured_Knowledge_Graph_Example.MyGraphExample import MyGraphExample
 from View.ApplicationLoopManager import ApplicationLoopManager
 from ComponentAssembly.ComponentAssembler import ComponentAssembler
 from GraphModel.Graph import Graph
@@ -27,8 +27,8 @@ from GraphModel.Graph import Graph
 if __name__ == '__main__':
     # Graph
     graph = Graph()
-    graph.team_name = "Die mutigen Mungos"  # TODO: Geben Sie Ihrem Team einen Namen!
-    graph_content = GraphContent(graph)  # TODO: Hier können Sie den Inhalt und Verbindungen ihrer Knoten anlegen.
+    graph.team_name = "Byte Bandits"
+    graph_content = GraphContent(graph), GraphContentLinus(graph)
 
     # beautiful_code_graph = MyGraphExample(graph)
 
