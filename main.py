@@ -31,7 +31,7 @@ if __name__ == '__main__':
     graph_content = GraphContent(graph)  # TODO: Hier können Sie den Inhalt und Verbindungen ihrer Knoten anlegen.
 
     # beautiful_code_graph = MyGraphExample(graph)
-
+    # test
     # Application
     component_assembler = ComponentAssembler(graph, False)
     main = ApplicationLoopManager(component_assembler)
