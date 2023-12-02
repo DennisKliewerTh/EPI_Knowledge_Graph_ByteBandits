@@ -221,17 +221,39 @@ Alan_Turing_10 = Node("Alan Turings Arbeit über künstliche Intelligenz (KI) ha
                       " vielen Bereichen des modernen Lebens Anwendung finden.",
                       "Turing's Werk über Künstliche Intelligenz",)
 
-Alan_Turing_11 = Node("",
-                      "",
-                      "")
+Alan_Turing_11 = Node("Der Turing-Test hat einen beträchtlichen Einfluss auf die KI-Forschung gehabt. Er fungiert"
+                      " als Richtlinie für die Entwicklung von KI-Systemen und hat die Diskussionen über deren"
+                      " Natur und Fortschritt vorangetrieben. Diese Prüfung hat Forscher dazu angeregt, KI-Systeme"
+                      " zu entwickeln, die menschenähnliche Interaktionen und Antworten reproduzieren können.\n\n"
+                      "Zusätzlich dazu hat der Turing-Test die KI-Forschung dazu ermutigt, sich auf das Verständnis"
+                      " der Komplexität des menschlichen Denkens zu konzentrieren. Während einige den Test kritisiert"
+                      " haben, bleibt er ein wichtiger Meilenstein, der die Forschung dazu antreibt, den Grad der"
+                      " Intelligenz zu definieren, den Maschinen erreichen können, und hat damit die Entwicklungen"
+                      " in der KI maßgeblich beeinflusst.",
+                      "Turing-Test in der KI-Forschung",)
 
-Alan_Turing_12 = Node("",
-                      "",
-                      "")
+Alan_Turing_12 = Node("Alan Turing trug maßgeblich zur Erforschung formaler Sprachen bei, einem zentralen Konzept in"
+                      " der theoretischen Informatik. Formale Sprachen bestehen aus Symbolen, die durch Regeln oder"
+                      " Grammatiken definiert werden. Turing untersuchte Grammatiktypen wie kontextfreie und reguläre"
+                      " Grammatiken. Diese formalen Strukturen bilden die Basis für die Beschreibung von Algorithmen"
+                      " und Programmiersprachen.\n\n"
+                      "Seine Arbeit legte den Grundstein für das Verständnis formaler Sprachen. Die von Turing"
+                      " entwickelten Grammatiktypen sind von entscheidender Bedeutung für die heutige Informatik."
+                      " Sie dienen als Grundlage für Programmiersprachen, Compiler und die Entwicklung von Algorithmen,"
+                      " und haben einen bedeutenden Einfluss auf die theoretische Informatik ausgeübt. Turing's"
+                      " Beiträge prägten maßgeblich die Erforschung und Nutzung formaler Sprachen in der"
+                      " Computerwissenschaft.",
+                      "Turing und Formale Sprachen",)
 
-Alan_Turing_13 = Node("",
-                      "",
-                      "")
+Alan_Turing_13 = Node("Turing-Maschinen bleiben in der modernen Informatik von grundlegender Bedeutung. Als"
+                      " theoretisches Konzept bilden sie die Basis für die Analyse von Algorithmen und die"
+                      " Berechenbarkeit von Problemlösungen. Ihre Abstraktion ermöglicht es, Rechenfähigkeiten"
+                      " von Computern zu verstehen und zu modellieren.\n\n"
+                      "In der Komplexitätstheorie dienen Turing-Maschinen als Referenzmodell, um die Klassifizierung"
+                      " von Problemen und die Bewertung ihrer algorithmischen Lösbarkeit zu ermöglichen. Ihr Einsatz"
+                      " ist essenziell für die Analyse von Problemlösungen sowie für die Entwicklung und Bewertung"
+                      " effizienter Algorithmen in der heutigen Informatiklandschaft.",
+                      "Turing-Maschienen in der heutigen Informatik",)
 
 Alan_Turing_14 = Node("",
                       "",

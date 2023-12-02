@@ -18,7 +18,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 from Onour_Directory.Onour_Content import Alan_Turing_1, Alan_Turing_2, Alan_Turing_3, Alan_Turing_4, Alan_Turing_5,\
-    Alan_Turing_6, Alan_Turing_7, Alan_Turing_8, Alan_Turing_9, Alan_Turing_10
+    Alan_Turing_6, Alan_Turing_7, Alan_Turing_8, Alan_Turing_9, Alan_Turing_10, Alan_Turing_11, Alan_Turing_13,\
+    Alan_Turing_12
 
 
 class GraphContent:
@@ -222,3 +223,6 @@ class GraphContent:
         graph.add_new_node_to_graph(Alan_Turing_8)
         graph.add_new_node_to_graph(Alan_Turing_9)
         graph.add_new_node_to_graph(Alan_Turing_10)
+        graph.add_new_node_to_graph(Alan_Turing_11)
+        graph.add_new_node_to_graph(Alan_Turing_12)
+        graph.add_new_node_to_graph(Alan_Turing_13)
