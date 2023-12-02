@@ -83,33 +83,143 @@ Alan_Turing_3 = Node("Alan Turing spielte eine maßgebliche Rolle bei der Entsch
                      " bleibt ein Meilenstein in der Geschichte der Kryptographie und der technologischen Kriegsführung.",
                      "Entschlüsselung der Enigma-Maschine",)
 
-Alan_Turing_4 = Node("",
-                     "",
-                     "")
+Alan_Turing_4 = Node("Die Church-Turing-These postuliert, dass alles, was durch einen Algorithmus berechenbar ist,"
+                     " durch eine Turingmaschine berechenbar ist. Diese These, von Alonzo Church und Alan Turing"
+                     " unabhängig voneinander formuliert, hat fundamentale Bedeutung in der theoretischen Informatik.\n\n"
+                     "In technischer Hinsicht bedeutet dies, dass die Menge der berechenbaren Funktionen durch eine"
+                     " Turingmaschine vollständig erfasst wird. Wenn eine Funktion algorithmisch berechenbar ist, kann"
+                     " sie von einer Turingmaschine simuliert werden. Diese These ist zentral für die Definition von"
+                     " Berechenbarkeit und legt den Grundstein für das Verständnis von algorithmischer Entscheidbarkeit.\n\n"
+                     "Die Auswirkungen auf die theoretische Informatik sind immens. Die Church-Turing-These schafft"
+                     " einen einheitlichen Rahmen zur Analyse von Berechenbarkeit und Effizienz von Algorithmen."
+                     " Sie ermöglicht es, verschiedene Berechnungsmodelle auf ihre Äquivalenz mit Turingmaschinen zu prüfen.\n\n"
+                     "Die These hat auch Auswirkungen auf die Diskussion über Künstliche Intelligenz (KI) und die"
+                     " Grenzen algorithmischer Lösbarkeit. Wenn die These korrekt ist, impliziert dies, dass es"
+                     " inhärent unentscheidbare Probleme gibt, die von keiner algorithmischen Lösung erfasst werden können.\n\n"
+                     "In der Praxis beeinflusst die Church-Turing-These die Entwicklung von Programmiersprachen und"
+                     " Algorithmen. Sie gibt Richtlinien dafür, welche Arten von Problemen effizient lösbar sind und"
+                     " welche theoretisch unlösbar sein könnten.\n\n"
+                     "Zusammengefasst prägt die Church-Turing-These die theoretische Grundlage der Informatik, indem"
+                     " sie den Begriff der Berechenbarkeit definiert und den Rahmen für die Analyse von Algorithmen"
+                     " schafft. Ihre Bedeutung erstreckt sich über die Theorie hinaus und beeinflusst die Entwicklung"
+                     " von Technologien, die auf den Prinzipien der algorithmischen Berechenbarkeit basieren.",
+                     "Church-Turing-These",)
 
-Alan_Turing_5 = Node("",
-                     "",
-                     "")
+Alan_Turing_5 = Node("Alonzo Church war ein bedeutender amerikanischer Logiker und Mathematiker, geboren am 14. Juni"
+                     " 1903 und verstorben am 11. August 1995. Er ist bekannt für seine Beiträge zur mathematischen"
+                     " Logik und insbesondere für die Entwicklung des Lambda-Kalküls, einem formalen System zur"
+                     " Darstellung von Funktionen und Berechnungen.\n\n"
+                     "Church arbeitete eng mit seinem Studenten Alan Turing zusammen, der unabhängig vom Lambda-Kalkül"
+                     " die Turingmaschine entwickelte. Gemeinsam legten sie die Grundlagen für die Church-Turing-These,"
+                     " die besagt, dass jede berechenbare Funktion von einer Turingmaschine berechnet werden kann.\n\n"
+                     "Church trug auch zur Entwicklung der Entscheidungsproblemtheorie bei, in der er zeigte, dass es"
+                     " keine allgemeine Methode gibt, um die Wahrheit aller mathematischen Sätze zu entscheiden. Seine"
+                     " Arbeit hatte einen tiefgreifenden Einfluss auf die theoretische Informatik und die Grundlagen"
+                     " der Berechenbarkeit.",
+                     "Alonzo Church",)
 
-Alan_Turing_6 = Node("",
-                     "",
-                     "")
+Alan_Turing_6 = Node("Der Turing-Test, von Alan Turing entworfen, ist ein Maßstab für die Fähigkeit einer Maschine,"
+                     " menschenähnliches Verhalten zu imitieren, insbesondere beim Kommunizieren. Eine erfolgreiche"
+                     " Durchführung bedeutet, dass ein Beobachter nicht zwischen den Antworten einer KI und eines"
+                     " Menschen unterscheiden kann.\n\n"
+                     "Technisch gesehen bewegt sich der Turing-Test in Richtung KI, die komplexe menschliche Konversationen"
+                     " simulieren kann. Eine Maschine soll nicht nur reine Daten verarbeiten, sondern auch Kontext und"
+                     " Nuancen menschlicher Kommunikation verstehen und darauf reagieren können.\n\n"
+                     "Die technologischen Herausforderungen dabei beinhalten maschinelles Lernen, natürliche"
+                     " Sprachverarbeitung und tiefes Verständnis von Kontexten. KI-Forscher arbeiten daran, Algorithmen"
+                     " zu verbessern, um die Grenzen des Turing-Tests zu überwinden.\n\n"
+                     "Der Einfluss des Turing-Tests auf die KI-Forschung liegt in der Schaffung eines klaren Ziels für"
+                     " die Entwicklung von KI. Es fördert die Entwicklung von KI-Systemen, die nicht nur logische"
+                     " Probleme lösen, sondern auch menschenähnliche Kommunikationsfähigkeiten besitzen.\n\n"
+                     "Obwohl der Turing-Test nicht ohne Kritik ist, bleibt er ein Meilenstein in der KI-Entwicklung."
+                     " Die Forschung zielt darauf ab, KI-Systeme zu schaffen, die nicht nur Aufgaben effizient"
+                     " erledigen, sondern auch menschenähnliche Intelligenz und Interaktionen demonstrieren können.",
+                     "Turing Test",)
 
-Alan_Turing_7 = Node("",
-                     "",
-                     "")
+Alan_Turing_7 = Node("Berechenbarkeit und Entscheidbarkeit bilden zentrale Konzepte in der Informatik, die stark von"
+                     " Turings Arbeit beeinflusst wurden. Alan Turing legte den Grundstein für das Verständnis"
+                     " berechenbarer Funktionen und Entscheidbarkeitsprobleme, was die theoretische Basis für moderne"
+                     " Computerwissenschaften schuf.\n\n"
+                     "1. Turingmaschine und Berechenbarkeit: Turings bahnbrechende Idee war die Konzeption der"
+                     " Turingmaschine, eines abstrakten Modells eines universellen Computers. Er zeigte, dass jede"
+                     " effektiv berechenbare Funktion von einer Turingmaschine simuliert werden kann. Dies legte den"
+                     " Grundstein für das Verständnis der Berechenbarkeit von Algorithmen.\n\n"
+                     "2. Unentscheidbarkeitsprobleme: Turings Arbeit trug wesentlich zur Identifikation von"
+                     " unentscheidbaren Problemen bei. Sein Beweis des Halteproblems zeigte, dass es keine allgemeine"
+                     " Methode gibt, um festzustellen, ob ein beliebiges Programm bei gegebenen Eingaben anhalten"
+                     " wird. Dies untermauerte die Existenz von Grenzen in der algorithmischen Lösbarkeit.\n\n"
+                     "3. Turingvollständigkeit und Algorithmische Universialität: Turings Konzept der"
+                     " Turingvollständigkeit besagt, dass eine Maschine oder Sprache als universell betrachtet werden"
+                     " kann, wenn sie alles berechnen kann, was von einer Turingmaschine berechnet werden kann."
+                     " Dies führte zur Idee der algorithmischen Universalität und war ein Meilenstein in der"
+                     " Entwicklung von Programmiersprachen.\n\n"
+                     "Entscheidungsprobleme und Formale Sprachen: Turing machte entscheidende Fortschritte im"
+                     " Verständnis formaler Sprachen und Entscheidungsprobleme. Er trug zur Entwicklung der Theorie"
+                     " formaler Sprachen und Grammatiken bei, die wiederum fundamentale Konzepte in der"
+                     " Compilerkonstruktion und der Theoretischen Informatik beeinflussten.\n\n"
+                     "Church-Turing-These: Die von Turing und Alonzo Church unabhängig voneinander entwickelte"
+                     " Church-Turing-These postuliert, dass alles, was durch einen Algorithmus berechenbar ist, durch"
+                     " eine Turingmaschine berechenbar ist. Diese These schuf einen einheitlichen Rahmen für das"
+                     " Verständnis von Berechenbarkeit und beeinflusste die theoretische Informatik erheblich.\n\n"
+                     "Insgesamt legte Turings Arbeit die theoretischen Grundlagen für das Verständnis von"
+                     " Berechenbarkeit und Entscheidbarkeit. Seine Konzepte sind integraler Bestandteil der modernen"
+                     " Informatik, beeinflussen die Entwicklung von Algorithmen, Programmiersprachen und die"
+                     " Definition von Grenzen in der algorithmischen Lösbarkeit.",
+                     "Berechenbarkeit und Entscheidbarkeit",)
 
-Alan_Turing_8 = Node("",
-                     "",
-                     "")
+Alan_Turing_8 = Node("Insgesamt legte Turings Arbeit die theoretischen Grundlagen für das Verständnis von"
+                     " Berechenbarkeit und Entscheidbarkeit. Seine Konzepte sind integraler Bestandteil der modernen"
+                     " Informatik, beeinflussen die Entwicklung von Algorithmen, Programmiersprachen und die"
+                     " Definition von Grenzen in der algorithmischen Lösbarkeit.\n\n"
+                     "Die Anerkennung mit dem Turing-Preis fördert Innovationen, spornt junge Forscher an und fördert"
+                     " den Austausch von Wissen und Ideen innerhalb der globalen Informatik-Community. Dies trägt"
+                     " maßgeblich dazu bei, die Grundlagen für zukünftige Technologien zu legen und die Informatik"
+                     " als einen sich stetig entwickelnden Bereich zu festigen. Insgesamt hat der Turing-Preis einen"
+                     " bedeutenden Einfluss auf die Sichtbarkeit und den Fortschritt in der Welt der Informatik und"
+                     " fungiert als katalytischer Faktor für wegweisende Entwicklungen und Innovationen.",
+                     "Turing-Preis",)
 
-Alan_Turing_9 = Node("",
-                     "",
-                     "")
+Alan_Turing_9 = Node("Die Programmierung der Automatic Computing Engine (ACE) markierte einen Wendepunkt in der"
+                     " Geschichte der Informatik. Die ACE, entwickelt in den 1940er und 1950er Jahren am National"
+                     " Physical Laboratory in Großbritannien unter der Leitung von Alan Turing, war einer der frühesten"
+                     " elektronischen digitalen Computer. Die Programmierung dieser Maschine ermöglichte es,"
+                     " komplexe Berechnungen durchzuführen und war ein bedeutender Schritt in Richtung moderner"
+                     " Rechner.\n\n"
+                     "Die Auswirkungen der ACE-Programmierung auf die Informatik waren enorm. Diese Entwicklung trug"
+                     " dazu bei, das Verständnis für die Architektur von Computern zu vertiefen und bildete die"
+                     " Grundlage für spätere Innovationen in der Computerprogrammierung. Sie half, die Konzepte von"
+                     " Software, Algorithmen und Datenstrukturen zu formen, die später die Grundlage für die"
+                     " Entwicklung moderner Computer bildeten.\n\n"
+                     "Darüber hinaus diente die ACE als Inspiration und Lehrmittel für zukünftige Computerentwicklungen"
+                     " und half dabei, das Verständnis für die Funktionsweise von Rechenmaschinen zu erweitern."
+                     " Ihre Programmierung legte den Grundstein für die Entstehung von Programmiersprachen und die"
+                     " Entwicklung von Anwendungen, die später die Grundlage für die moderne Informationstechnologie bildeten.\n\n"
+                     "Insgesamt trug die Programmierung der ACE maßgeblich zur Entwicklung der Informatik bei,"
+                     " indem sie neue Wege für die Konstruktion und Programmierung von Computern aufzeigte und die"
+                     " Grundlagen für die heutige Computerwissenschaft legte. Ihre Auswirkungen sind als Meilenstein"
+                     " in der Geschichte der Computerentwicklung und -programmierung unbestreitbar.",
+                     "Programmierung der ACE (Automatic Computer Engine)",)
 
-Alan_Turing_10 = Node("",
-                      "",
-                      "")
+Alan_Turing_10 = Node("Alan Turings Arbeit über künstliche Intelligenz (KI) hatte einen tiefgreifenden Einfluss auf die"
+                      " Informatik und prägte die Entwicklung dieses Fachgebiets maßgeblich. In seinem wegweisenden"
+                      " Artikel von 1950 mit dem Titel 'Computing Machinery and Intelligence' schlug Turing vor, dass"
+                      " Maschinen, wenn sie menschenähnliche Leistungen erbringen können, als intelligent betrachtet"
+                      " werden könnten. Er formulierte das heute bekannte 'Turing-Test'-Konzept, das als Maßstab"
+                      " für die Beurteilung der Intelligenz von Maschinen und KI-Systemen dient.\n\n"
+                      "Turing's Arbeit war wegweisend, da sie grundlegende Fragen zur Möglichkeit und Grenzen"
+                      " künstlicher Intelligenz aufwarf. Seine Ideen beeinflussten die Forschung und Entwicklung"
+                      " von KI-Algorithmen und -Systemen sowie die Philosophie hinter dem Verständnis von"
+                      " Maschinenintelligenz.\n\n"
+                      "Diese Arbeit lieferte nicht nur wichtige Impulse für die KI-Forschung, sondern ebnete auch den"
+                      " Weg für die Entstehung von Maschinenlernen, neuronalem Netzwerken und anderen KI-Technologien."
+                      " Sie inspirierte Forscher dazu, nach Möglichkeiten zu suchen, wie Maschinen menschenähnliche"
+                      " Problemlösungsfähigkeiten erlangen könnten.\n\n"
+                      "Turing's Werk über künstliche Intelligenz markierte einen Meilenstein in der Informatik, indem"
+                      " es die Diskussion über die Machbarkeit und Ethik von KI-Systemen anregte. Seine Ideen bleiben"
+                      " relevant und prägend für die heutige KI-Forschung und -Entwicklung. Sie haben die Grundlage"
+                      " für das Verständnis und die Weiterentwicklung von intelligenten Maschinen gelegt, die in"
+                      " vielen Bereichen des modernen Lebens Anwendung finden.",
+                      "Turing's Werk über Künstliche Intelligenz",)
 
 Alan_Turing_11 = Node("",
                       "",
