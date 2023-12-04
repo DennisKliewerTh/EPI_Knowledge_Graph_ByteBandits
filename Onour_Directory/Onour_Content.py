@@ -255,29 +255,94 @@ Alan_Turing_13 = Node("Turing-Maschinen bleiben in der modernen Informatik von g
                       " effizienter Algorithmen in der heutigen Informatiklandschaft.",
                       "Turing-Maschienen in der heutigen Informatik",)
 
-Alan_Turing_14 = Node("",
-                      "",
-                      "")
+Alan_Turing_14 = Node("Computeralgebra ist ein Bereich der Informatik, der sich mit der Entwicklung von Algorithmen"
+                      " und Software zur symbolischen mathematischen Manipulation befasst. Hierbei werden mathematische"
+                      " Probleme mithilfe von Symbolen und Ausdrücken anstelle numerischer Werte behandelt."
+                      " Alan Turing trug indirekt zur Entstehung von Computeralgebra bei, indem er theoretische"
+                      " Konzepte entwickelte, die später in diesem Bereich Anwendung fanden.\n\n"
+                      "Turing's Arbeit zur formalen Logik und zur Entwicklung der Turing-Maschine legte die Grundlagen"
+                      " für theoretische Konzepte in der Mathematik und Informatik. Obwohl er nicht direkt an der"
+                      " Entwicklung von Computeralgebrasystemen beteiligt war, legte er das Fundament für die"
+                      " mathematische Logik und die Berechnungstheorie, die wesentlich für die Entstehung von"
+                      " Computeralgebrasystemen waren. Seine Beiträge ebneten den Weg für die Verwendung von"
+                      " algorithmischen Methoden in der symbolischen Mathematik, die heute in Computeralgebrasystemen"
+                      " wie Mathematica oder Maple genutzt werden.",
+                      "Turing und Computeralgebra",)
 
-Alan_Turing_15 = Node("",
-                      "",
-                      "")
+Alan_Turing_15 = Node("Computerarchitektur bezieht sich auf das Design und die Struktur von Computersystemen,"
+                      " einschließlich der Hardwarekomponenten und deren Organisation. Alan Turing wird als Pionier"
+                      " der Computerarchitektur betrachtet, da seine Arbeit grundlegende Konzepte und Ideen"
+                      " einführte, die die Entwicklung moderner Computerarchitekturen beeinflussten.\n\n"
+                      "Turing entwarf theoretische Modelle von Berechnungsgeräten wie der Turing-Maschine, die als ein"
+                      " fundamentales Abstraktionsmodell für die Architektur von Computern gilt. Seine Konzepte"
+                      " legten den Grundstein für die Entwicklung von universellen Rechenmaschinen und beeinflussten"
+                      " die Struktur von Computersystemen bis heute. Seine Ideen zur Speicherorganisation,"
+                      " Steuerungseinheiten und Algorithmen wirkten sich maßgeblich auf das Design von Computern"
+                      " aus und halfen dabei, den Aufbau und die Funktionsweise von modernen Rechenmaschinen zu"
+                      " gestalten. Turing's visionäre Beiträge legten den Grundstein für die Computerarchitektur"
+                      " und waren entscheidend für die Entstehung und Entwicklung von heutigen Computersystemen.",
+                      "Turing als Pionier der Computerarchirektur",)
 
-Alan_Turing_16 = Node("",
-                      "",
-                      "")
+Alan_Turing_16 = Node("Die algorithmische Komplexität befasst sich mit der Analyse von Algorithmen hinsichtlich ihrer"
+                      " Laufzeit und ihres Speicherbedarfs. Alan Turing leistete bahnbrechende Beiträge zur"
+                      " algorithmischen Komplexität durch seine Arbeit an der Turing-Maschine. Seine Maschine diente"
+                      " als theoretisches Modell für algorithmische Prozesse und ermöglichte die Analyse von"
+                      " Problemlösungen.\n\n"
+                      "Turing ermöglichte eine Grundlage zur Bewertung der Komplexität von Algorithmen, indem er den"
+                      " Begriff der Berechenbarkeit prägte. Seine Untersuchungen zur Entscheidbarkeit von Problemen"
+                      " und zur Klassifizierung der Turing-Maschinen führten zur Konzeptualisierung von Problemen in"
+                      " verschiedene Komplexitätsklassen. Turing's Arbeit ermöglichte es, Probleme hinsichtlich ihrer"
+                      " Schwierigkeit zu kategorisieren, was heute in der Informatik eine zentrale Rolle spielt. Seine"
+                      " Erkenntnisse zur algorithmischen Komplexität haben den Weg für die Entwicklung effizienter"
+                      " Algorithmen geebnet und tragen weiterhin zur Grundlage der Computerwissenschaft bei."
+                      " Ein Beispiel hierfür ist die Analyse von Sortieralgorithmen wie Quicksort oder Mergesort, bei"
+                      " der die Laufzeit in Abhängigkeit von der Eingabegröße bestimmt wird.",
+                      "Turing und Algorithmische Komplexität",)
 
-Alan_Turing_17 = Node("",
-                      "",
-                      "")
+Alan_Turing_17 = Node("Ein Compiler ist ein Softwareprogramm, das Quellcode in Maschinencode übersetzt, den ein"
+                      " Computer direkt ausführen kann. Alan Turing hat zwar nicht direkt an der Entwicklung von"
+                      " Compilern gearbeitet, seine Arbeit an der Turing-Maschine und der formalen Logik legte"
+                      " jedoch die theoretischen Grundlagen für Compiler und die Programmiersprachen fest.\n\n"
+                      "Turing’s Beitrag liegt in der Schaffung theoretischer Modelle für die Funktionsweise von"
+                      " Computern. Seine Konzepte zur logischen Struktur von Berechnungen und zur symbolischen"
+                      " Manipulation von Daten waren grundlegend für das Verständnis der Umwandlung von"
+                      " Programmiersprachen in Maschinencode. Die abstrakte Natur seiner Arbeit bildete das Fundament"
+                      " für die theoretischen Grundlagen von Compilern. Turing’s Erkenntnisse in der Berechenbarkeit"
+                      " und logischen Operationen haben indirekt den Weg geebnet für die Entwicklung von"
+                      " Programmiersprachen und Compilern, die heutzutage in der Softwareentwicklung unverzichtbar"
+                      " sind. Ein Beispiel für seine indirekte Hilfe bei der Compilerentwicklung ist die Theorie der"
+                      " formalen Grammatiken, die zur Entwicklung von Sprachen und deren Übersetzung in Maschinencode"
+                      " verwendet wird.",
+                      "Turing und Compilerbau",)
 
-Alan_Turing_18 = Node("",
-                      "",
-                      "")
+Alan_Turing_18 = Node("Neuronale Netze sind künstliche Intelligenzmodelle, die sich von biologischen neuronalen"
+                      " Netzwerken inspirieren lassen. Alan Turing legte zwar nicht direkt den Grundstein für"
+                      " neuronale Netze, doch seine Arbeit in der Informatik, besonders im Bereich der künstlichen"
+                      " Intelligenz und der Berechnungstheorie, ebnete den Weg für die Entwicklung solcher Konzepte."
+                      " Seine Untersuchungen zu maschinellem Lernen und künstlicher Intelligenz bildeten eine"
+                      " theoretische Grundlage für das Verständnis von Algorithmen, die heutzutage in neuronalen"
+                      " Netzen eingesetzt werden.\n\n"
+                      "Turing's Beiträge zur Theorie der Berechnung und seine Ideen zu Lernmaschinen trugen zur"
+                      " Entwicklung der Grundlagen für neuronale Netze bei. Ein Beispiel ist die Turing-Maschine als"
+                      " theoretisches Modell für das Lernen und die Informationsverarbeitung, das als"
+                      " Inspirationsquelle für moderne neuronale Netzwerkarchitekturen diente. Seine Vorarbeit in der"
+                      " künstlichen Intelligenz und die Ideen zu adaptivem Lernen haben das Verständnis von"
+                      " neuronalen Netzen und ihre Anwendung in der heutigen KI-Technologie geprägt.",
+                      "Turing und Neuronale Netze",)
 
-Alan_Turing_19 = Node("",
-                      "",
-                      "")
+Alan_Turing_19 = Node("Das Vermächtnis von Alan Turing in der Informatik ist bedeutend und umfasst seine"
+                      " bahnbrechenden Beiträge in verschiedenen Teilbereichen der Computerwissenschaft. Seine"
+                      " Arbeit zur Entwicklung der Turing-Maschine legte die Grundlage für das Verständnis von"
+                      " Algorithmen und Berechenbarkeit fest. Diese Maschine diente als theoretisches Modell für"
+                      " moderne Computer und trug wesentlich zur Entstehung des digitalen Zeitalters bei.\n\n"
+                      "Turing's Konzept der Turing-Vollständigkeit, welches die Fähigkeit eines Systems beschreibt,"
+                      " alles zu berechnen, was auch mit einer Turing-Maschine berechenbar ist, bildet die Basis für"
+                      " viele moderne Computerarchitekturen und Programmiersprachen. Sein Vermächtnis erstreckt sich"
+                      " auch auf die künstliche Intelligenz, wo der Turing-Test als Maßstab für Maschinenintelligenz"
+                      " weiterhin diskutiert wird. Seine Ideen beeinflussten die Entwicklung von Berechnungstheorien,"
+                      " Compilerbau, algorithmischer Komplexität und mehr, und sie bleiben ein wesentlicher"
+                      " Bestandteil der Computerwissenschaft und der heutigen Technologien.",
+                      "Turing'S vermächtnis in der Informatik",)
 
 Alan_Turing_20 = Node("",
                       "",
