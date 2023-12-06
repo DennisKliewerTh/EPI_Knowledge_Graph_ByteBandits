@@ -58,7 +58,7 @@ Alan_Turing_2 = Node("Die **Turingmaschiene**, ein fundamentales Konzept in der 
                      " und deren Grenzen zu analysieren. Trotz ihrer Einfachheit bilden sie die Grundlage für das"
                      " Verständnis von ***Berechenbarkeit*** und Komplexität in der algorithmischen Theorie.",
                      "Turingmaschiene",
-                     "Turingmachine.JPG",)
+                     "Turingmachine.JPG")
 
 Alan_Turing_3 = Node("**Alan Turing** spielte eine maßgebliche Rolle bei der Entschlüsselung der deutschen Enigma-Maschine"
                      " während des Zweiten Weltkriegs. Als Leiter der Hut 8 in Bletchley Park leitete er ein Team von"
@@ -81,7 +81,7 @@ Alan_Turing_3 = Node("**Alan Turing** spielte eine maßgebliche Rolle bei der En
                      " trugen dazu bei, die Enigma zu durchbrechen und spielten eine entscheidende Rolle bei der"
                      " Verkürzung des Zweiten Weltkriegs. Turings Beitrag zur Entschlüsselung der Enigma-Maschine"
                      " bleibt ein Meilenstein in der Geschichte der Kryptographie und der technologischen Kriegsführung.",
-                     "Entschlüsselung der Enigma-Maschine",)
+                     "Entschlüsselung der Enigma-Maschine")
 
 Alan_Turing_4 = Node("Die Church-Turing-These postuliert, dass alles, was durch einen Algorithmus berechenbar ist,"
                      " durch eine **Turingmaschiene** berechenbar ist. Diese These, von Alonzo Church und **Alan Turing**"
@@ -103,7 +103,7 @@ Alan_Turing_4 = Node("Die Church-Turing-These postuliert, dass alles, was durch 
                      " sie den Begriff der ***Berechenbarkeit*** definiert und den Rahmen für die Analyse von Algorithmen"
                      " schafft. Ihre Bedeutung erstreckt sich über die Theorie hinaus und beeinflusst die Entwicklung"
                      " von Technologien, die auf den Prinzipien der algorithmischen ***Berechenbarkeit*** basieren.",
-                     "Church-Turing-These",)
+                     "Church-Turing-These")
 
 Alan_Turing_5 = Node("Alonzo Church war ein bedeutender amerikanischer Logiker und Mathematiker, geboren am 14. Juni"
                      " 1903 und verstorben am 11. August 1995. Er ist bekannt für seine Beiträge zur mathematischen"
@@ -116,7 +116,8 @@ Alan_Turing_5 = Node("Alonzo Church war ein bedeutender amerikanischer Logiker u
                      " keine allgemeine Methode gibt, um die Wahrheit aller mathematischen Sätze zu entscheiden. Seine"
                      " Arbeit hatte einen tiefgreifenden Einfluss auf die theoretische Informatik und die Grundlagen"
                      " der ***Berechenbarkeit***.",
-                     "Alonzo Church",)
+                     "Alonzo Church",
+                     "Alonzo.JPG")
 
 Alan_Turing_6 = Node("Der Turing-Test, von **Alan Turing** entworfen, ist ein Maßstab für die Fähigkeit einer Maschine,"
                      " menschenähnliches Verhalten zu imitieren, insbesondere beim Kommunizieren. Eine erfolgreiche"
@@ -134,7 +135,7 @@ Alan_Turing_6 = Node("Der Turing-Test, von **Alan Turing** entworfen, ist ein Ma
                      "Obwohl der Turing-Test nicht ohne Kritik ist, bleibt er ein Meilenstein in der **KI**-Entwicklung."
                      " Die Forschung zielt darauf ab, **KI**-Systeme zu schaffen, die nicht nur Aufgaben effizient"
                      " erledigen, sondern auch menschenähnliche Intelligenz und Interaktionen demonstrieren können.",
-                     "Turing Test",)
+                     "Turing Test")
 
 Alan_Turing_7 = Node("***Berechenbarkeit*** und ***Entscheidbarkeit*** bilden zentrale Konzepte in der Informatik, die stark von"
                      " Turings Arbeit beeinflusst wurden. **Alan Turing** legte den Grundstein für das Verständnis"
@@ -165,7 +166,7 @@ Alan_Turing_7 = Node("***Berechenbarkeit*** und ***Entscheidbarkeit*** bilden ze
                      " ***Berechenbarkeit*** und ***Entscheidbarkeit***. Seine Konzepte sind integraler Bestandteil der modernen"
                      " Informatik, beeinflussen die Entwicklung von Algorithmen, Programmiersprachen und die"
                      " Definition von Grenzen in der algorithmischen Lösbarkeit.",
-                     "Berechenbarkeit und Entscheidbarkeit",)
+                     "Berechenbarkeit und Entscheidbarkeit")
 
 Alan_Turing_8 = Node("Insgesamt legte Turings Arbeit die theoretischen Grundlagen für das Verständnis von"
                      " ***Berechenbarkeit*** und ***Entscheidbarkeit***. Seine Konzepte sind integraler Bestandteil der modernen"
@@ -177,7 +178,7 @@ Alan_Turing_8 = Node("Insgesamt legte Turings Arbeit die theoretischen Grundlage
                      " als einen sich stetig entwickelnden Bereich zu festigen. Insgesamt hat der Turing-Preis einen"
                      " bedeutenden Einfluss auf die Sichtbarkeit und den Fortschritt in der Welt der Informatik und"
                      " fungiert als katalytischer Faktor für wegweisende Entwicklungen und Innovationen.",
-                     "Turing-Preis",)
+                     "Turing-Preis")
 
 Alan_Turing_9 = Node("Die Programmierung der Automatic Computing Engine (ACE) markierte einen Wendepunkt in der"
                      " Geschichte der Informatik. Die ACE, entwickelt in den 1940er und 1950er Jahren am National"
@@ -198,7 +199,7 @@ Alan_Turing_9 = Node("Die Programmierung der Automatic Computing Engine (ACE) ma
                      " indem sie neue Wege für die Konstruktion und Programmierung von Computern aufzeigte und die"
                      " Grundlagen für die heutige Computerwissenschaft legte. Ihre Auswirkungen sind als Meilenstein"
                      " in der Geschichte der Computerentwicklung und -programmierung unbestreitbar.",
-                     "Programmierung der ACE (Automatic Computer Engine)",)
+                     "Programmierung der ACE (Automatic Computer Engine)")
 
 Alan_Turing_10 = Node("**Alan Turing**s Arbeit über künstliche Intelligenz (**KI**) hatte einen tiefgreifenden Einfluss auf die"
                       " Informatik und prägte die Entwicklung dieses Fachgebiets maßgeblich. In seinem wegweisenden"
@@ -219,7 +220,7 @@ Alan_Turing_10 = Node("**Alan Turing**s Arbeit über künstliche Intelligenz (**
                       " relevant und prägend für die heutige **KI**-Forschung und -Entwicklung. Sie haben die Grundlage"
                       " für das Verständnis und die Weiterentwicklung von intelligenten Maschinen gelegt, die in"
                       " vielen Bereichen des modernen Lebens Anwendung finden.",
-                      "Turing's Werk über Künstliche Intelligenz",)
+                      "Turing's Werk über Künstliche Intelligenz")
 
 Alan_Turing_11 = Node("Der Turing-Test hat einen beträchtlichen Einfluss auf die **KI**-Forschung gehabt. Er fungiert"
                       " als Richtlinie für die Entwicklung von **KI**-Systemen und hat die Diskussionen über deren"
@@ -230,7 +231,7 @@ Alan_Turing_11 = Node("Der Turing-Test hat einen beträchtlichen Einfluss auf di
                       " haben, bleibt er ein wichtiger Meilenstein, der die Forschung dazu antreibt, den Grad der"
                       " Intelligenz zu definieren, den Maschinen erreichen können, und hat damit die Entwicklungen"
                       " in der **KI** maßgeblich beeinflusst.",
-                      "Turing-Test in der KI-Forschung",)
+                      "Turing-Test in der KI-Forschung")
 
 Alan_Turing_12 = Node("**Alan Turing** trug maßgeblich zur Erforschung formaler Sprachen bei, einem zentralen Konzept in"
                       " der theoretischen Informatik. Formale Sprachen bestehen aus Symbolen, die durch Regeln oder"
@@ -243,7 +244,7 @@ Alan_Turing_12 = Node("**Alan Turing** trug maßgeblich zur Erforschung formaler
                       " und haben einen bedeutenden Einfluss auf die theoretische Informatik ausgeübt. Turing's"
                       " Beiträge prägten maßgeblich die Erforschung und Nutzung formaler Sprachen in der"
                       " Computerwissenschaft.",
-                      "Turing und Formale Sprachen",)
+                      "Turing und Formale Sprachen")
 
 Alan_Turing_13 = Node("Turing-Maschinen bleiben in der modernen Informatik von grundlegender Bedeutung. Als"
                       " theoretisches Konzept bilden sie die Basis für die Analyse von Algorithmen und die"
@@ -253,7 +254,7 @@ Alan_Turing_13 = Node("Turing-Maschinen bleiben in der modernen Informatik von g
                       " von Problemen und die Bewertung ihrer algorithmischen Lösbarkeit zu ermöglichen. Ihr Einsatz"
                       " ist essenziell für die Analyse von Problemlösungen sowie für die Entwicklung und Bewertung"
                       " effizienter Algorithmen in der heutigen Informatiklandschaft.",
-                      "Turing-Maschienen in der heutigen Informatik",)
+                      "Turing-Maschienen in der heutigen Informatik")
 
 Alan_Turing_14 = Node("Computeralgebra ist ein Bereich der Informatik, der sich mit der Entwicklung von Algorithmen"
                       " und Software zur symbolischen mathematischen Manipulation befasst. Hierbei werden mathematische"
@@ -267,7 +268,7 @@ Alan_Turing_14 = Node("Computeralgebra ist ein Bereich der Informatik, der sich 
                       " Computeralgebrasystemen waren. Seine Beiträge ebneten den Weg für die Verwendung von"
                       " algorithmischen Methoden in der symbolischen Mathematik, die heute in Computeralgebrasystemen"
                       " wie Mathematica oder Maple genutzt werden.",
-                      "Turing und Computeralgebra",)
+                      "Turing und Computeralgebra")
 
 Alan_Turing_15 = Node("Computerarchitektur bezieht sich auf das Design und die Struktur von Computersystemen,"
                       " einschließlich der Hardwarekomponenten und deren Organisation. **Alan Turing** wird als Pionier"
@@ -281,7 +282,7 @@ Alan_Turing_15 = Node("Computerarchitektur bezieht sich auf das Design und die S
                       " aus und halfen dabei, den Aufbau und die Funktionsweise von modernen Rechenmaschinen zu"
                       " gestalten. Turing's visionäre Beiträge legten den Grundstein für die Computerarchitektur"
                       " und waren entscheidend für die Entstehung und Entwicklung von heutigen Computersystemen.",
-                      "Turing als Pionier der Computerarchirektur",)
+                      "Turing als Pionier der Computerarchirektur")
 
 Alan_Turing_16 = Node("Die algorithmische Komplexität befasst sich mit der Analyse von Algorithmen hinsichtlich ihrer"
                       " Laufzeit und ihres Speicherbedarfs. **Alan Turing** leistete bahnbrechende Beiträge zur"
@@ -297,7 +298,7 @@ Alan_Turing_16 = Node("Die algorithmische Komplexität befasst sich mit der Anal
                       " Algorithmen geebnet und tragen weiterhin zur Grundlage der Computerwissenschaft bei."
                       " Ein Beispiel hierfür ist die Analyse von Sortieralgorithmen wie Quicksort oder Mergesort, bei"
                       " der die Laufzeit in Abhängigkeit von der Eingabegröße bestimmt wird.",
-                      "Turing und Algorithmische Komplexität",)
+                      "Turing und Algorithmische Komplexität")
 
 Alan_Turing_17 = Node("Ein Compiler ist ein Softwareprogramm, das Quellcode in Maschinencode übersetzt, den ein"
                       " Computer direkt ausführen kann. **Alan Turing** hat zwar nicht direkt an der Entwicklung von"
@@ -313,7 +314,7 @@ Alan_Turing_17 = Node("Ein Compiler ist ein Softwareprogramm, das Quellcode in M
                       " sind. Ein Beispiel für seine indirekte Hilfe bei der Compilerentwicklung ist die Theorie der"
                       " formalen Grammatiken, die zur Entwicklung von Sprachen und deren Übersetzung in Maschinencode"
                       " verwendet wird.",
-                      "Turing und Compilerbau",)
+                      "Turing und Compilerbau")
 
 Alan_Turing_18 = Node("Neuronale Netze sind künstliche Intelligenzmodelle, die sich von biologischen neuronalen"
                       " Netzwerken inspirieren lassen. **Alan Turing** legte zwar nicht direkt den Grundstein für"
@@ -328,7 +329,7 @@ Alan_Turing_18 = Node("Neuronale Netze sind künstliche Intelligenzmodelle, die 
                       " Inspirationsquelle für moderne neuronale Netzwerkarchitekturen diente. Seine Vorarbeit in der"
                       " künstlichen Intelligenz und die Ideen zu adaptivem Lernen haben das Verständnis von"
                       " neuronalen Netzen und ihre Anwendung in der heutigen **KI**-Technologie geprägt.",
-                      "Turing und Neuronale Netze",)
+                      "Turing und Neuronale Netze")
 
 Alan_Turing_19 = Node("Das Vermächtnis von **Alan Turing** in der Informatik ist bedeutend und umfasst seine"
                       " bahnbrechenden Beiträge in verschiedenen Teilbereichen der Computerwissenschaft. Seine"
@@ -342,21 +343,61 @@ Alan_Turing_19 = Node("Das Vermächtnis von **Alan Turing** in der Informatik is
                       " weiterhin diskutiert wird. Seine Ideen beeinflussten die Entwicklung von Berechnungstheorien,"
                       " Compilerbau, algorithmischer Komplexität und mehr, und sie bleiben ein wesentlicher"
                       " Bestandteil der Computerwissenschaft und der heutigen Technologien.",
-                      "Turing's vermächtnis in der Informatik",)
+                      "Turing's vermächtnis in der Informatik")
 
 Alan_Turing_20 = Node("",
                       "",
                       "")
 
 
-Onour_Source_1 = Node("",
-                      "")
+Onour_Source_1 = Node("\n### Autor:\n"
+                      "B. Jack Copeland (als Herausgeber der Sammlung)"
+                      "\n### Veröffentlichungsjahr:\n"
+                      "2004 (Erstveröffentlichung)"
+                      "\n### Titel:\n"
+                      "The Essential Turing: Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence,"
+                      " and Artificial Life plus The Secrets of Enigma"
+                      "\n### Auflage:\n"
+                      "Die Sammlung umfasst verschiedene Arbeiten von Alan Turing, einschließlich seiner bedeutenden"
+                      " wissenschaftlichen Schriften über Computabilität, künstliche Intelligenz, Logik und"
+                      " Enigma-Entschlüsselung. Es ist eine Zusammenstellung seiner wichtigsten Beiträge zu"
+                      " verschiedenen Feldern und enthält auch persönlichere Texte wie Briefe und Notizen."
+                      "\n### Ort:\n"
+                      "Cambridge, England; Oxford University Press"
+                      "\n### Verlag:\n"
+                      "Oxford University Press",
+                      "(Jack Copeland, 2004)")
 
-Onour_Source_2 = Node("",
-                      "")
+Onour_Source_2 = Node("\n### Autor:\n"
+                      "Alan M. Turing"
+                      "\n### Veröffentlichungsjahr:\n"
+                      "1936"
+                      "\n### Titel:\n"
+                      "On Computable Numbers, with an Application to the Entscheidungsproblem"
+                      "\n### In:\n"
+                      "Proceedings of the London Mathematical Society"
+                      "\n### Bandnummer(Ausgabennummer):\n"
+                      "Volume 42, Issue 1-2"
+                      "\n### Seitenzahlen:\n"
+                      "230-265",
+                      "(Turing, 1936)")
 
-Onour_Source_3 = Node("",
-                      "")
+Onour_Source_3 = Node("\n### Autor:\n"
+                      "B. Jack Copeland, Diane Proudfoot"
+                      "\n### Veröffentlichungsjahr:\n"
+                      "2012 (Erstveröffentlichung)"
+                      "\n### Titel:\n"
+                      "Alan Turing's Electronic Brain: The Struggle to Build the ACE, the World's Fastest Computer"
+                      "\n### Auflage:\n"
+                      "Die Inhalte des Buches behandeln Alan Turings Arbeit und seine Beiträge zur Entwicklung des"
+                      " Computers, insbesondere des Automatic Computing Engine (ACE), an dem Turing maßgeblich"
+                      " beteiligt war. Es bietet Einblicke in Turings Leben, seine Ideen und seine Arbeit an"
+                      " wegweisenden technologischen Entwicklungen."
+                      "\n### Ort:\n"
+                      "Oxford, Großbritannien; Oxford University Press"
+                      "\n### Verlag:\n"
+                      "Oxford University Press",
+                      "(Jack Copeland, Diane Proudfoot, 2012)")
 
 Onour_Source_4 = Node("",
                       "")
