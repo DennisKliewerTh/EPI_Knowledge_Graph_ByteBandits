@@ -421,7 +421,86 @@ class GraphContent:
                     "mehrere Nutzer auf einen Computer anzulegen."
                     " Unix basiert auf ein System des Unternehmens AT&T und wurde von Kenneth Lane Thomas entwickelt.","iOS")
 
+        unix = Node ("Unix ist ein Mehr-Benutzer Betriebssystem, es wurde am 3. November"
+                     " 1971 erstmalig veröffentlicht. Entwickelt wurde Unix im Jahre 1969 von Kenneth"
+                     " Lane Thompson, ein amerikanischen Programmier. Er entwickelte das System im Auftrag "
+                     "des Unternehmens Bell Labs, dies ist ein Tochter Unternehmen von AT&T.\n\nDurch Unix ist es möglich,"
+                     " dass Mehrere Benutzer Konten auf einen Computer zugreifen können und somit ihre eigene "
+                     "Arbeitsumgebung haben. Außerdem entstand durch Unix das Dateisystem und die Ordnerstruktur "
+                     "auf den Computer.\n\nHeutzutage wird Unix nicht nur noch als eigenes Betriebssystem genutzt, "
+                     "sondern es wird durch verschiedene Unternehmen erweitert und genutzt. So dient Unix nicht nur"
+                     " als Basis von Linux sondern auch als Basis der Apple Betriebssysteme wie iOS, MacOS usw.", "Unix")
 
+        quellen = Node ("Hardware:\n"
+                        "https://www.sachsen.schule/~gdb/daten_verarbeiten/hw/Hardware.html"
+                        "https://www.edv-lehrgang.de/hardware/\n\n"
+                        "Homebrew:\n"
+                        "https://blog.hnf.de/der-club-der-selbstgestrickten-computer/"
+                        "https://www.heise.de/news/Mythos-des-Silicon-Valley-40-Jahre-Homebrew-"
+                        "Computer-Club-2567331.html?hg=1&hgi=3&hgf=false\n\n"
+                        "NeXT:\n"
+                        "https://de.statista.com/statistik/daten/studie/203600/umfrage/absatz-von-apples-"
+                        "mac-computern-weltweit/#:~:text=\n"
+                        "https://digitalesleben.blog/2022/04/19/next-computer-die-zweite-karriere"
+                        "-von-steve-jobs/#Zusammenfassung_und_Preise\n\n"
+                        "Apple 1:\n"
+                        "https://www.computerworld.ch/business/ios/apple-1-kostete-40-jahren-666"
+                        "-dollar-heute-900-000-1335832.html\n"
+                        "https://www.welt.de/wirtschaft/webwelt/gallery140218820/Das-sind-die-"
+                        "Technik-Meilensteine-von-Apple.html\n\n"
+                        "Apple M1:\n"
+                        "https://www.intel.de/content/www/de/de/products/sku/199335/intel-core-i710700k-"
+                        "processor-16m-cache-up-to-5-10-ghz/specifications.html\n"
+                        "https://www.apple.com/de/newsroom/2020/11/apple-unleashes-m1/\n"
+                        "https://iboysoft.com/de/wiki/was-ist-die-apple-neural-engine.html#what-is-apples-neural-engine\n\n"
+                        "Apple 2:\n"
+                        "https://www.hardware-aktuell.com/lexikon/Apple_II/\n"
+                        "https://www.techtarget.com/iotagenda/definition/microcomputer\n"
+                        "https://www.heise.de/hintergrund/Geschichte-von-Apple-Der-Apple-II-mehr-als-nur-Grundlage"
+                        "-des-Erfolgs-4941086.html#:~:text=Wie schon den ersten Apple,Millionen von Apple"
+                        " hergestellten Exemplaren.\n\n"
+                        "iPhone 2g:\n"
+                        "https://ap-verlag.de/infografik-alle-iphones-im-generationen-check/22868/#:~:text=\n"
+                        "https://appleinsider.com/articles/18/06/29/the-story-of-the-original-iphone-that-"
+                        "nobody-thought-was-possible\n"
+                        "https://www.geschichte-von-apple.de/Gerate/iPhones/iPhone.php\n"
+                        "https://www.eyefactive.com/whitepaper/geschichte-der-touchscreen-technologie#:~:text=2007 -"
+                        " Apple: Der erste iPhone,Smartphone auf den Markt brachte.\n\n"
+                        "iPod:\n"
+                        "https://www.apple.com/de/newsroom/2022/05/the-music-lives-on/#:~:text=“&text=\n"
+                        "https://www.mac-history.de/2018/06/14/die-geschichte-des-ipod/\n"
+                        "https://www.turn-on.de/article/ipod-modelle-eine-chronologie-des-kult-"
+                        "musikplayers-von-apple-537821#h2_summary_0\n"
+                        "https://www.ifun.de/heute-vor-15-jahren-steve-jobs-stellt-den-ersten-ipod-vor-99121/\n"
+                        "iTunes:\n"
+                        "https://soundexperts.de/musik-streaming/#:~:text=Wie%20funktioniert%20"
+                        "Musikstreaming%3F,etwa%20Smartphone%20und%20Tablet%20sein\n"
+                        "https://blog.recordjet.com/itunes-wird-abgeschafft-wichtigste-antworten-fuer-musiker-und-user/\n"
+                        "https://www.welt.de/newsticker/leute/stars/article115675941/Zehn-Jahre"
+                        "-iTunes-Wie-Apple-die-Musikindustrie-revolutionierte.html\n"
+                        "https://www.mactechnews.de/news/article/iTunes-Vom-kleinen-Musikplayer-zum-"
+                        "Medienimperium-160034.html?page=4\n"
+                        "Swift:\n"
+                        "https://www.computerweekly.com/de/definition/Objektorientierte-Programmierung-OOP#:~:text=\n"
+                        "https://www.ralfebert.de/ios-app-entwicklung/swift-ueberblick/#:~:text=\n"
+                        "Programmierprachen:\n"
+                        "https://ilu.th-koeln.de/goto.php?target=file_174004_download&client_id=thkilu\n"
+                        "https://www.computerweekly.com/de/definition/Maschinensprache#:~:text=Maschinenlesbarer\n"
+                        "https://linz.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/assembler-hello"
+                        "-world/#:~:text=In\n"
+                        "App Store:\n"
+                        "https://www.mactechnews.de/news/article/Vor-5-Jahren-Apple-Music-ist"
+                        "-da-und-enttaeuscht-zunaechst-175183.html\n"
+                        "https://www.apple.com/de/newsroom/2015/06/08Introducing"
+                        "-Apple-Music-All-The-Ways-You-Love-Music-All-in-One-Place-/\n"
+                        "iOS:\n"
+                        "https://www.wertgarantie.de/lexikon/technik/ios\n"
+                        "https://www.it-business.de/was-ist-ios-a-834fdeeb8083fc4c259982484101e352/\n"
+                        "https://www.computerwissen.de/apple/ios/\n"
+                        "Unix:\n"
+                        "https://it-service.network/it-lexikon/unix#:~:text=\n"
+                        "https://www.get-in-it.de/magazin/arbeitswelt/it-legenden/ken-thompson#:~:text=\n"
+                        "https://it-service.network/it-lexikon/unix\n","Quellenerzeichniss")
 
 
         steve_jobs.connect(apple)
@@ -437,7 +516,7 @@ class GraphContent:
         apple.connect(programmiersprachen)
         apple.connect(next)
 
-        programmiersprachen.connect(swift)
+        swift.connect(programmiersprachen)
 
         hardware.connect(ipod)
         hardware.connect(iphone_2g)
@@ -450,6 +529,7 @@ class GraphContent:
         software.connect(itunes)
         software.connect(app_store)
 
+        ios.connect(unix)
 
 
 
@@ -470,3 +550,6 @@ class GraphContent:
         graph.add_new_node_to_graph(apple_musik)
         graph.add_new_node_to_graph(app_store)
         graph.add_new_node_to_graph(ios)
+        graph.add_new_node_to_graph(unix)
+        graph.add_new_node_to_graph(swift)
+        graph.add_new_node_to_graph(quellen)
