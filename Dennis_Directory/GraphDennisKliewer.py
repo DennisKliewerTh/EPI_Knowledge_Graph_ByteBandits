@@ -6,7 +6,8 @@ class GraphDennisKliewer:
     def __init__(self, graph: Graph):
         self.create_nodes(graph)
 
-    def create_nodes(self, graph):
+    @staticmethod
+    def create_nodes(graph):
         larry_page = Node("**Geburtsdatum**: 26. März 1973\n"
                         "**Geburtsort**: East Lansing, Michigan, USA\n"
                         "**Beruf**: Softwareingenieur, Unternehmer, Mitbegründer von Google\n"

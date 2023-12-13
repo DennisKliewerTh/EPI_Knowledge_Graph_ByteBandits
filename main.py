@@ -21,8 +21,7 @@ import sys
 from GraphContentLinus import GraphContentLinus
 from GraphContent import GraphContent
 
-from GraphDennisKliewer import GraphDennisKliewer
-from Structured_Knowledge_Graph_Example.MyGraphExample import MyGraphExample
+from Dennis_Directory.GraphDennisKliewer import GraphDennisKliewer
 
 from View.ApplicationLoopManager import ApplicationLoopManager
 from ComponentAssembly.ComponentAssembler import ComponentAssembler
