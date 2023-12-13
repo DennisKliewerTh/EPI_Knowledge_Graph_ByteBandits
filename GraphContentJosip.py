@@ -56,3 +56,4 @@ graph.add_new_node_to_graph(Ehre)
 graph.add_new_node_to_graph(Facts)
 graph.add_new_node_to_graph(Quellen)
 
+Test
