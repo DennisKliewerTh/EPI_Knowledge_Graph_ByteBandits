@@ -26,6 +26,7 @@ class GraphContent:
 
     def __init__(self, graph: Graph):
         self.create_demo_nodes(graph)
+        self.create_demo_nodes2(graph)
 
 
     def create_demo_nodes(self, graph):
@@ -508,6 +509,7 @@ class GraphContent:
 
 
         steve_jobs.connect(apple)
+        steve_jobs.connect(quellen)
         steve_wozniak.connect(apple)
         steve_wozniak.connect(homebrew)
         steve_jobs.connect(homebrew)
@@ -559,7 +561,7 @@ class GraphContent:
         graph.add_new_node_to_graph(quellen)
         
     @staticmethod
-    def create_demo_nodes(graph):
+    def create_demo_nodes2(graph):
 
 
         Alan_Turing_1.connect(Alan_Turing_2)
