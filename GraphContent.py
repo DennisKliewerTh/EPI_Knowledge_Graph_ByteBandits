@@ -27,11 +27,9 @@ class GraphContent:
     def __init__(self, graph: Graph):
         self.create_demo_nodes(graph)
 
-    def create_demo_nodes(self, graph):
-        """
-        Diese Methode dient Ihnen also Demonstration für den Aufbau eines Graphen.
-        TODO: Löschen oder kommentieren Sie diese Methode aus wenn Sie Ihren eigenen Graphen erstellen.
-        """
+    @staticmethod
+    def create_demo_nodes(graph):
+
 
         Alan_Turing_1.connect(Alan_Turing_2)
         Alan_Turing_1.connect(Alan_Turing_3)
@@ -85,3 +83,7 @@ class GraphContent:
         graph.add_new_node_to_graph(Onour_Source_1)
         graph.add_new_node_to_graph(Onour_Source_2)
         graph.add_new_node_to_graph(Onour_Source_3)
+
+        central_node = Node("Die bekanntesten Informatiker:innen und Ihre Beiträge zum Fachgebiet",
+                            "Thema des Graphen")
+        graph.add_new_node_to_graph(central_node)
