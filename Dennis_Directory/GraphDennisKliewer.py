@@ -1,14 +1,6 @@
-from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
-class GraphDennisKliewer:
-
-    def __init__(self, graph: Graph):
-        self.create_nodes(graph)
-
-    @staticmethod
-    def create_nodes(graph):
-        larry_page = Node("**Geburtsdatum**: 26. März 1973\n"
+Larry_page = Node("**Geburtsdatum**: 26. März 1973\n"
                         "**Geburtsort**: East Lansing, Michigan, USA\n"
                         "**Beruf**: Softwareingenieur, Unternehmer, Mitbegründer von Google\n"
                         "\n## Kurzbiografie\n"
@@ -25,7 +17,7 @@ class GraphDennisKliewer:
                         "Für seine Beiträge zur Technologie und Innovation erhielt Larry Page zahlreiche Auszeichnungen und Anerkennungen, darunter den Marconi-Preis, den TR100-Preis des Massachusetts Institute of Technology (MIT) und den Aufnahme in die American Academy of Arts and Sciences.",
                         "Larry Page",
                         "larry_page.jpeg")
-        sergey_brin = Node("**Geburtsdatum**: 21. August 1973\n"
+Sergey_brin = Node("**Geburtsdatum**: 21. August 1973\n"
                         "**Geburtsort**: Moskau, Russland (damals Sowjetunion)\n"
                         "**Beruf**: Softwareingenieur, Unternehmer, Mitbegründer von Google"
                         "\n## Kurzbiografie\n"
@@ -43,7 +35,7 @@ class GraphDennisKliewer:
                         "Sergey Brin",
                         "sergey_brin.jpg")
 
-        google_llc = Node("**Gründungsdatum**: 4. September 1998\n"
+Google_llc = Node("**Gründungsdatum**: 4. September 1998\n"
                         "**Gründer**: Larry Page und Sergey Brin"
                         "\n## Kurzbeschreibung\n"
                         "Google ist eines der weltweit größten und bekanntesten Technologieunternehmen, das sich auf Internetdienste, Software und Hardware spezialisiert hat. Es wurde von Larry Page und Sergey Brin gegründet und hat seinen Hauptsitz in Mountain View, Kalifornien, USA."
@@ -61,7 +53,7 @@ class GraphDennisKliewer:
                         "Google LLC",
                         "google_llc.jpg")
 
-        michigan_state_university = Node("**Gründungsdatum**: 12. Februar 1855\n"
+Michigan_state_university = Node("**Gründungsdatum**: 12. Februar 1855\n"
                         "**Standort**: East Lansing, Michigan, USA"
                         "\n## Kurzbeschreibung\n"
                         "Die Michigan State University (MSU) ist eine öffentliche Forschungsuniversität in East Lansing, Michigan. Sie ist eine der größten Universitäten in den Vereinigten Staaten und hat einen starken Fokus auf Forschung, Lehre und öffentlichen Dienst."
@@ -79,7 +71,7 @@ class GraphDennisKliewer:
                         "Michigan State University (MSU)",
                         "michigan_state_university.jpg")
 
-        stanford_university = Node("**Gründungsdatum**: 11. März 1885\n"
+Stanford_university = Node("**Gründungsdatum**: 11. März 1885\n"
                         "**Standort**: Stanford, Kalifornien, USA"
                         "\n## Kurzbeschreibung\n"
                         "Die Stanford University ist eine private Forschungsuniversität in Stanford, Kalifornien. Sie zählt zu den renommiertesten Bildungseinrichtungen weltweit und ist bekannt für ihre herausragende Lehre, Forschung und Innovation in verschiedenen Bereichen."
@@ -97,7 +89,7 @@ class GraphDennisKliewer:
                         "Stanford University",
                         "stanford_university.jpg")
 
-        alphabet_inc = Node("**Gründungsdatum**: 2. Oktober 2015\n"
+Alphabet_inc = Node("**Gründungsdatum**: 2. Oktober 2015\n"
                         "**Hauptsitz**: Mountain View, Kalifornien, USA"
                         "\n## Kurzbeschreibung\n"
                         "Alphabet Inc. ist eine US-amerikanische Holdinggesellschaft, die als Muttergesellschaft mehrerer Tochterunternehmen fungiert, darunter Google. Das Unternehmen wurde gegründet, um die verschiedenen Geschäftsbereiche von Google zu strukturieren und zu diversifizieren."
@@ -115,7 +107,7 @@ class GraphDennisKliewer:
                         "Alphabet Inc.",
                         "alphabet_inc.jpg")
 
-        sundar_pichai = Node("**Geburtsdatum**: 12. Juli 1972\n"
+Sundar_pichai = Node("**Geburtsdatum**: 12. Juli 1972\n"
                         "**Geburtsort**: Chennai, Tamil Nadu, Indien\n"
                         "**Beruf**: CEO von Alphabet Inc. (Muttergesellschaft von Google)"
                         "\n## Kurzbiografie\n"
@@ -132,7 +124,7 @@ class GraphDennisKliewer:
                         "Sundar Pichai",
                         "sundar_pichai.jpg")
 
-        marconi_preis = Node("## Beschreibung\n"
+Marconi_preis = Node("## Beschreibung\n"
                         "Der Marconi-Preis ist eine angesehene Auszeichnung in der Telekommunikations- und Technologiebranche. Er wird jährlich verliehen und würdigt bedeutende Beiträge zur Wissenschaft, Technologie oder den Anwendungen der Telekommunikation."
                         "\n## Geschichte und Hintergrund\n"
                         "Der Marconi-Preis wurde zu Ehren von Guglielmo Marconi, einem Pionier in der Entwicklung der drahtlosen Telekommunikation, ins Leben gerufen. Marconi gilt als einer der Wegbereiter der drahtlosen Kommunikation und erhielt 1909 den Nobelpreis für Physik für seine Arbeit auf diesem Gebiet."
@@ -145,7 +137,7 @@ class GraphDennisKliewer:
                         "Marconi Preis",
                         "marconi_society.jpeg")
 
-        tr100_preis = Node("## Beschreibung\n"
+Tr100_preis = Node("## Beschreibung\n"
                         "Der TR100-Preis wird jährlich vom MIT Technology Review verliehen, um herausragende junge Innovatoren und Pioniere in der Welt der Technologie zu ehren. Er würdigt die bemerkenswerte Arbeit von Personen unter 35 Jahren, die bedeutende Beiträge in verschiedenen technologischen Bereichen geleistet haben."
                         "\n## Geschichte und Hintergrund\n"
                         "Die Auszeichnung wurde erstmals im Jahr 1999 vom MIT Technology Review ins Leben gerufen. Sie zielt darauf ab, die herausragende Arbeit junger Innovatoren zu würdigen und ihr Potenzial für zukünftige technologische Fortschritte anzuerkennen. Die Preisträger werden für ihre Fähigkeit, Innovationen voranzutreiben und Probleme durch kreative Technologien zu lösen, ausgezeichnet."
@@ -158,7 +150,7 @@ class GraphDennisKliewer:
                         "TR100-Preis (auch bekannt als TR35)",
                         "tr35.jpg")
 
-        amer_acad = Node("## Beschreibung\n"
+Amer_acad = Node("## Beschreibung\n"
                         "Die American Academy of Arts and Sciences (Abkürzung: AAAS oder Amer. Acad.) ist eine der ältesten und angesehensten Organisationen in den Vereinigten Staaten, die sich der Förderung der Wissenschaften, der Geisteswissenschaften und der Bildung verschrieben hat. Sie wurde im Jahr 1780 gegründet und hat ihren Sitz in Cambridge, Massachusetts."
                         "\n## Geschichte und Hintergrund\n"
                         "Die American Academy of Arts and Sciences wurde während der amerikanischen Revolution von Wissenschaftlern, Gelehrten und politischen Führern gegründet, darunter John Adams und John Hancock. Die Organisation wurde geschaffen, um Wissen zu fördern, innovative Ideen zu verbreiten und Lösungen für gesellschaftliche Herausforderungen zu finden."
@@ -171,7 +163,7 @@ class GraphDennisKliewer:
                         "American Academy of Arts and Sciences",
                         "amer_acad.jpg")
 
-        university_of_maryland = Node("**Gründungsdatum**: 1856\n"
+University_of_maryland = Node("**Gründungsdatum**: 1856\n"
                         "**Standort**: College Park, Maryland, USA"
                         "\n## Kurzbeschreibung\n"
                         "Die University of Maryland (UMD) ist eine öffentliche Forschungsuniversität und eine der führenden Bildungseinrichtungen in den Vereinigten Staaten. Sie ist Teil des University System of Maryland und hat ihren Hauptcampus in College Park, Maryland."
@@ -187,7 +179,7 @@ class GraphDennisKliewer:
                         "Die Alumni der University of Maryland haben in verschiedenen Bereichen bedeutende Beiträge geleistet. Viele Absolventen der UMD sind in Regierung, Wirtschaft, Wissenschaft, Künsten, Medien und anderen Bereichen erfolgreich und haben einen positiven Einfluss auf die Gesellschaft ausgeübt. Die Universität hat einen nachhaltigen Einfluss auf Bildung, Innovation und Wachstum in Maryland und darüber hinaus.",
                         "University of Maryland (UMD)",
                         "umd.jpg")
-        google_glass = Node("**Veröffentlichungsdatum der Entwicklerversion**: April 2013\n"
+Google_glass = Node("**Veröffentlichungsdatum der Entwicklerversion**: April 2013\n"
                         "**Einstellung der Verbraucherversion**: Januar 2015"
                         "\n## Kurzbeschreibung\n"
                         "Google Glass war ein tragbares Augmented-Reality-Headset, das von Google entwickelt wurde. Es sollte dem Benutzer Informationen im Sichtfeld anzeigen und verschiedene Funktionen durch Sprachsteuerung und Gesten ermöglichen."
@@ -201,7 +193,7 @@ class GraphDennisKliewer:
                         "Obwohl die Verbraucherversion von Google Glass nicht den erwarteten kommerziellen Erfolg erzielte und vorläufig eingestellt wurde, hatte sie dennoch einen Einfluss auf die Technologiebranche. Sie trug zur Weiterentwicklung von tragbaren Technologien bei und half bei der Erforschung von Augmented Reality und Wearables. Teile der Technologie und des Konzepts von Google Glass wurden in anderen Anwendungen und Branchen übernommen, wie beispielsweise in der Medizin, Produktion und Logistik.",
                         "Google Glass",
                         "google_glass.jpg")
-        android = Node("**Erstveröffentlichung**: 23. September 2008\n"
+Android = Node("**Erstveröffentlichung**: 23. September 2008\n"
                         "**Entwickler**: Android Inc. (später von Google übernommen)"
                         "\n## Kurzbeschreibung\n"
                         "Android ist ein mobiles Betriebssystem, das für Smartphones, Tablets, Smartwatches, Fernseher, Autos und andere vernetzte Geräte entwickelt wurde. Es ist bekannt für seine Offenheit, Anpassungsfähigkeit und weitreichende Verfügbarkeit auf einer Vielzahl von Geräten verschiedener Hersteller."
@@ -217,28 +209,28 @@ class GraphDennisKliewer:
                         "Andoid",
                         "android.jpg")
 
-        brin_wojcicki_foundation = Node("## Beschreibung\n"
+Brin_wojcicki_foundation = Node("## Beschreibung\n"
                         "Die Brin Wojcicki Foundation wurde von Sergey Brin und Anne Wojcicki 2004 gegründet und konzentriert sich auf wohltätige Zwecke, insbesondere im Bereich Bildung, Gesundheit, Wissenschaft und humanitären Angelegenheiten."
                         "\n## Ziele\n"
                         "Die Stiftung setzt sich für Bildungsprogramme, medizinische Forschung, die Förderung von Wissenschaft und Technologie sowie für humanitäre Hilfe ein.",
                         "The Brin Wojcicki Foundation",
                         "brin_wojcicki_foundation.jpg")
 
-        wojcicki_foundation = Node("## Beschreibung\n"
+Wojcicki_foundation = Node("## Beschreibung\n"
                         "Anne Wojcicki hat auch ihre eigene Stiftung, die Wojcicki Foundation, gegründet. Diese konzentriert sich darauf, Bildungsinitiativen und -programme zu unterstützen, die den Zugang zu Bildung und Lernmöglichkeiten verbessern sollen."
                         "\n## Ziele\n"
                         "Die Stiftung setzt sich für Bildungsgerechtigkeit ein und unterstützt Bildungsprogramme, die Schülern aus benachteiligten Gemeinschaften und Hintergründen zugutekommen.",
                         "Wojcicki Foundation",
                         "wojcicki_foundation.jpg")
 
-        sergey_brin_family_foundation = Node("## Beschreibung\n"
+Sergey_brin_family_foundation = Node("## Beschreibung\n"
                         "Die Sergey Brin Family Foundation unterstützt verschiedene wohltätige Initiativen und Projekte, darunter Bildung, Gesundheitswesen, medizinische Forschung und humanitäre Hilfe weltweit."
                         "\n## Ziele\n"
                         "Die Stiftung arbeitet daran, gesellschaftliche Herausforderungen anzugehen, indem sie innovative Lösungen fördert und Organisationen unterstützt, die sich für positiven Wandel in verschiedenen Bereichen einsetzen.",
                         "The Sergey Brin Family Foundation",
                         "sergey_brin_family_foundation.jpg")
 
-        nsf_grfp = Node("## Beschreibung\n"
+Nsf_grfp = Node("## Beschreibung\n"
                         "Das National Science Foundation Graduate Research Fellowship Program (NSF GRFP) ist ein renommiertes Stipendienprogramm in den Vereinigten Staaten, das von der National Science Foundation (NSF) verwaltet wird. Es bietet finanzielle Unterstützung und Stipendien für Graduierte, die sich in den Bereichen Naturwissenschaften, Technik, Mathematik und Sozialwissenschaften auszeichnen."
                         "\n## Geschichte und Zweck\n"
                         "Das NSF GRFP wurde 1952 gegründet und ist darauf ausgerichtet, vielversprechende Studierende zu fördern und zu unterstützen, die in ihren akademischen Studien exzellente Leistungen erbracht haben und sich in ihrer Forschung besonders hervortun. Das Programm soll zur Entwicklung der nächsten Generation von Wissenschaftlern, Forschern und Innovatoren in den USA beitragen."
@@ -251,7 +243,7 @@ class GraphDennisKliewer:
                         "National Science Foundation Graduate Research Fellowship Program (NSF GRFP)",
                         "nsf_grfp.jpg")
 
-        anne_wojcicki = Node("**Geburtsdatum**: 28. Juli 1973\n"
+Anne_wojcicki = Node("**Geburtsdatum**: 28. Juli 1973\n"
                         "**Beruf**: Mitbegründerin und CEO von 23andMe"
                         "\n## Kurzbiografie\n"
                         "Anne Wojcicki ist eine amerikanische Unternehmerin und Mitbegründerin des Unternehmens 23andMe, das sich auf personalisierte Genetik und DNA-Analysen spezialisiert hat. Sie wurde am 28. Juli 1973 geboren und wuchs in einer akademischen Familie auf. Ihr Vater ist ein Physikprofessor an der Stanford University und ihre Mutter eine Pädagogin."
@@ -268,7 +260,7 @@ class GraphDennisKliewer:
                         "Anne Wojcicki",
                         "anne_wojcicki.jpg")
 
-        twentythree_and_me = Node("**Gründungsjahr**: 2006\n"
+Twentythree_and_me = Node("**Gründungsjahr**: 2006\n"
                         "**Gründer**: Anne Wojcicki, Linda Avey, Paul Cusenza"
                         "\n## Kurzbeschreibung\n"
                         "23andMe ist ein Unternehmen, das sich auf personalisierte Genetik und DNA-Analysen für Verbraucher spezialisiert hat. Es bietet DNA-Testkits an, die es den Kunden ermöglichen, ihre genetische Information zu analysieren, um Informationen über ihre Abstammung, genetische Gesundheitsrisiken, erbliche Merkmale und mehr zu erhalten."
@@ -285,7 +277,7 @@ class GraphDennisKliewer:
                         "23andMe",
                         "23andme.jpeg")
 
-        linda_avey = Node("**Geburtsdatum**: 1960\n"
+Linda_avey = Node("**Geburtsdatum**: 1960\n"
                         "**Beruf**: Unternehmerin, Co-Gründerin von 23andMe"
                         "\n## Kurzbiografie\n"
                         "Linda Avey ist eine Unternehmerin, die als eine der Mitbegründerinnen von 23andMe bekannt wurde, einem Unternehmen, das sich auf personalisierte Genetik und DNA-Analysen spezialisiert hat. Details zu ihrem Geburtsdatum und ihrer persönlichen Geschichte sind nicht öffentlich bekannt."
@@ -300,7 +292,7 @@ class GraphDennisKliewer:
                         "Linda Avey",
                         "linda_avey.jpg")
 
-        paul_cusenza = Node("**Beruf**:Chairman & CEO von Nodal Exchange und Nodal Clear"
+Paul_cusenza = Node("**Beruf**:Chairman & CEO von Nodal Exchange und Nodal Clear"
                         "\n## Kurzbiografie\n"
                         "Paul Cusenza ist der Vorsitzende und CEO von Nodal Exchange und Nodal Clear. Nodal Exchange ist eine Rohstoffbörse, die Futures und Optionen zum Handel anbietet, während Nodal Clear als zentrale Gegenpartei für das Clearing agiert. Der Großteil des offenen Interesses an US-Strom-Futures wird an der Nodal Exchange gehalten und repräsentiert ein Volumen von über 50 Milliarden US-Dollar an nominalem Wert. Das Unternehmen bietet auch Natural-Gas-Verträge, die weltweit größte Auswahl an Umwelt-Futures und führte die weltweit ersten LKW-Fracht-Futures ein."
                         "Cusenza führte die Nodal Exchange zu ihrem Handelsbeginn im Jahr 2009 und verkaufte das Unternehmen erfolgreich im Jahr 2017 an die EEX Group, die wiederum Teil der Deutsche Börse Group ist. Er ist Mitglied des Lenkungsausschusses der EEX Group."
@@ -309,93 +301,52 @@ class GraphDennisKliewer:
                         "Paul Cusenza",
                         "paul_cusenza.jpg")
 
-        quellen = Node("https://de.wikipedia.org/wiki/Larry_Page\n"
+Quellen_Dennis = Node("Larry Page:\n"
+                        "https://de.wikipedia.org/wiki/Larry_Page\n"
                         "https://whoswho.de/bio/larry-page.html\n"
+                        "Sergey Brin:\n"
                         "https://de.wikipedia.org/wiki/Sergey_Brin\n"
                         "https://whoswho.de/bio/sergey-brin.html\n"
+                        "Google:\n"
                         "https://de.wikipedia.org/wiki/Google_LLC\n"
+                        "MSU:\n"
                         "https://de.wikipedia.org/wiki/Michigan_State_University\n"
                         "https://msu.edu/about\n"
+                        "Stanford:\n"
                         "https://www.stanford.edu/about/\n"
+                        "Alphabet:\n"
                         "https://de.wikipedia.org/wiki/Alphabet_Inc.\n"
+                        "Sundar Pichai:\n"
                         "https://de.wikipedia.org/wiki/Sundar_Pichai\n"
+                        "Marconi Preis:\n"
                         "https://en.wikipedia.org/wiki/Marconi_Prize\n"
                         "https://marconisociety.org/about-us/\n"
+                        "TR100:\n"
                         "https://en.wikipedia.org/wiki/Innovators_Under_35\n"
+                        "Amer. Acad.:\n"
                         "https://en.wikipedia.org/wiki/American_Academy_of_Arts_and_Sciences\n"
                         "https://www.amacad.org/about-academy\n"
+                        "University of Maryland:\n"
                         "https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park\n"
                         "https://umd.edu/#card-2-about\n"
+                        "Google Glass:\n"
                         "https://en.wikipedia.org/wiki/Google_Glass\n"
+                        "Android:\n"
                         "https://en.wikipedia.org/wiki/Android_(operating_system)\n"
                         "https://www.android.com/intl/de_de/what-is-android/\n"
+                        "Brin Wojcicki Foundation:\n"
                         "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=RINF001\n"
+                        "NSF GRFP:\n"
                         "https://en.wikipedia.org/wiki/NSF-GRFP\n"
                         "https://new.nsf.gov/funding/graduate-students#nsf-graduate-research-fellowship-program-grfp-3e5\n"
+                        "Anne Wojcicki:\n"
                         "https://en.wikipedia.org/wiki/Anne_Wojcicki\n"
                         "https://golden.com/wiki/Anne_Wojcicki-6R3JDW\n"
+                        "23andme:\n"
                         "https://en.wikipedia.org/wiki/23andMe\n"
                         "https://www.23andme.com/en-int/about/\n"
+                        "Linda Avey:\n"
                         "https://en.wikipedia.org/wiki/Linda_Avey\n"
+                        "Paul Cusenza:\n"
                         "https://business.gmu.edu/profiles/paul-cusenza\n",
                         "Quellen")
-
-        larry_page.connect(michigan_state_university)
-        michigan_state_university.connect(stanford_university)
-        stanford_university.connect(google_llc)
-
-        sergey_brin.connect(university_of_maryland)
-        university_of_maryland.connect(stanford_university)
-        stanford_university.connect(google_llc)
-        sundar_pichai.connect(google_llc)
-
-        google_llc.connect(google_glass)
-        google_llc.connect(android)
-
-        larry_page.connect(marconi_preis)
-        larry_page.connect(tr100_preis)
-        larry_page.connect(amer_acad)
-
-        sergey_brin.connect(marconi_preis)
-        sergey_brin.connect(nsf_grfp)
-        sergey_brin.connect(amer_acad)
-
-        sergey_brin.connect(brin_wojcicki_foundation)
-        anne_wojcicki.connect(brin_wojcicki_foundation)
-
-        sergey_brin.connect(sergey_brin_family_foundation)
-        anne_wojcicki.connect(wojcicki_foundation)
-
-        anne_wojcicki.connect(twentythree_and_me)
-        linda_avey.connect(twentythree_and_me)
-        paul_cusenza.connect(twentythree_and_me)
-        google_llc.connect(alphabet_inc)
-        quellen.connect(larry_page)
-        quellen.connect(sergey_brin)
-        quellen.connect(anne_wojcicki)
-        quellen.connect(linda_avey)
-        quellen.connect(paul_cusenza)
-        quellen.connect(sundar_pichai)
-
-        graph.add_new_node_to_graph(larry_page)
-        graph.add_new_node_to_graph(linda_avey)
-        graph.add_new_node_to_graph(sergey_brin)
-        graph.add_new_node_to_graph(sergey_brin_family_foundation)
-        graph.add_new_node_to_graph(marconi_preis)
-        graph.add_new_node_to_graph(tr100_preis)
-        graph.add_new_node_to_graph(google_llc)
-        graph.add_new_node_to_graph(google_glass)
-        graph.add_new_node_to_graph(alphabet_inc)
-        graph.add_new_node_to_graph(android)
-        graph.add_new_node_to_graph(anne_wojcicki)
-        graph.add_new_node_to_graph(sundar_pichai)
-        graph.add_new_node_to_graph(paul_cusenza)
-        graph.add_new_node_to_graph(twentythree_and_me)
-        graph.add_new_node_to_graph(brin_wojcicki_foundation)
-        graph.add_new_node_to_graph(wojcicki_foundation)
-        graph.add_new_node_to_graph(university_of_maryland)
-        graph.add_new_node_to_graph(stanford_university)
-        graph.add_new_node_to_graph(quellen)
-        graph.add_new_node_to_graph(nsf_grfp)
-        graph.add_new_node_to_graph(amer_acad)
-        graph.add_new_node_to_graph(michigan_state_university)

@@ -18,11 +18,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 import pygame.freetype
 import sys
 
-from GraphContentLinus import GraphContentLinus
 from GraphContent import GraphContent
-
-from Dennis_Directory.GraphDennisKliewer import GraphDennisKliewer
-
 from View.ApplicationLoopManager import ApplicationLoopManager
 from ComponentAssembly.ComponentAssembler import ComponentAssembler
 from GraphModel.Graph import Graph
@@ -32,7 +28,7 @@ if __name__ == '__main__':
     graph = Graph()
 
     graph.team_name = "Byte Bandits"
-    graph_content = GraphContent(graph), GraphContentLinus(graph), GraphDennisKliewer(graph)
+    graph_content = GraphContent(graph)
 
     # beautiful_code_graph = MyGraphExample(graph)
     # test

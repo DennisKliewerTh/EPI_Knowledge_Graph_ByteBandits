@@ -1,19 +1,6 @@
-from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
-
-class GraphContentLinus:
-
-    def __init__(self, graph: Graph):
-        self.create_linus_nodes(graph)
-
-    @staticmethod
-    def create_linus_nodes(graph):
-        """
-        Inhalt der einzelnen Knoten
-        """
-
-        header_linus_node = Node("Linus Torvald ist das Gesicht hinter Linux. Er ist dafür verantwortlich das "
+header_linus_node = Node("Linus Torvald ist das Gesicht hinter Linux. Er ist dafür verantwortlich das "
                                  "es heute Linux gibt. "
                                  "Esprofitieren viele Programmierer von seiner Arbeit. Das beste Beispiel dafür ist "
                                  "git, welches Linus auch selber entwickelt hatte. Dies ist eine Versionsverwaltung "
@@ -30,7 +17,7 @@ class GraphContentLinus:
                                  "Industrie und der allgemeinen Technologie spielt. ", "Linus Torvald",
                                  "Linus_picture.jpg")
 
-        topic_node = Node("Linus Torvalds wurde am 28.12.1969 in Helsinki geboren. Sein voller Name lautet "
+topic_node = Node("Linus Torvalds wurde am 28.12.1969 in Helsinki geboren. Sein voller Name lautet "
                           "Linus Benedict "
                           "Torvalds. Seine Eltern heißen Anna Torvalds uns Nils Torvalds. "
                           " Beide waren damals Studenten an "
@@ -59,7 +46,7 @@ class GraphContentLinus:
                           "(Quelle2)",
                           "Kindheit und Jugend von Linus Torvald")
 
-        topic1_node = Node("Die Schulische Laufbahn begann Linus in der schwedisch-sprachigen Cygnaeus-Grundschule."
+topic1_node = Node("Die Schulische Laufbahn begann Linus in der schwedisch-sprachigen Cygnaeus-Grundschule."
                            "Später wechselte er dann auf das schwedische Allgemeingymnasium in Kruununhaka. Da Linus "
                            "sein Geburtstag am Jahresende hat, war er folglich immer der jüngste in der jeweiligen "
                            "Schulklasse,"
@@ -77,7 +64,7 @@ class GraphContentLinus:
                            "(Quelle2) \n\n",
                            "Bildungsweg und erste Interessen in den Themenbereich der Informatik ")
 
-        topic2_node = Node("Linus Torvalds begann 1986 mit der Programmierung eigener Treiber für seinen "
+topic2_node = Node("Linus Torvalds begann 1986 mit der Programmierung eigener Treiber für seinen "
                            "Sinclair-Computer."
                            "1991, als 386-Intel PCs populär wurden, kaufte er sich ein solches Gerät und setzte sich "
                            "intensiv mit "
@@ -104,12 +91,12 @@ class GraphContentLinus:
                            "Torvalds von einem Pinguin gebissen wurde. \n\n"
                            "(Quelle3)", "Motivationen und allgemeine Motive zur Entwicklung von Linux")
 
-        topic3_node = Node("Part 1: Vorteile freier Entwicklung und Verteilung: \n\n"
+topic3_node = Node("Part 1: Vorteile freier Entwicklung und Verteilung: \n\n"
                            "Part 2: Berufliche Entwicklung von Linus Torvalds: \n\n"
                            "Part 3: Linux Foundation und Distributoren: \n\n",
                            "Linux und die Beiträge von Linus dazu")
 
-        topic3v1_node = Node("Die freie Entwicklung von Linux ermöglicht eine Benutzerorientierung, "
+topic3v1_node = Node("Die freie Entwicklung von Linux ermöglicht eine Benutzerorientierung, "
                              "da nur die am meisten"
                              "benötigten Features integriert werden. Die dynamische Entwicklung führt dazu, "
                              "dass nur die "
@@ -133,7 +120,7 @@ class GraphContentLinus:
                              "(Quelle 3)",
                              "Vorteile freier Entwicklung und Verteilung:")
 
-        topic3v2_node = Node("Linus Torvalds arbeitete von März 1997 bis Juni 2003 für den Chiphersteller "
+topic3v2_node = Node("Linus Torvalds arbeitete von März 1997 bis Juni 2003 für den Chiphersteller "
                              "Transmeta. Danach "
                              "wechselte er zum OSDL (Open Source Development Lab) und zog nach Portland, Oregon. Das "
                              "OSDL und die Free Standards Group schlossen sich im Januar 2007 zur Linux Foundation "
@@ -143,7 +130,7 @@ class GraphContentLinus:
                              "(Quelle 3)",
                              "Berufliche Entwicklung von Linus Torvalds:")
 
-        topic3v3_node = Node("Das OSDL und die Free Standards Group bildeten 2007 die "
+topic3v3_node = Node("Das OSDL und die Free Standards Group bildeten 2007 die "
                              "Linux Foundation. Distributoren sind "
                              "Entwicklerteams, die Installations fertige Softwarepakete basierend "
                              "auf dem Linux-Systemkern "
@@ -159,7 +146,7 @@ class GraphContentLinus:
                              "(Quelle 3)",
                              "Linux Foundation und Distributoren:")
 
-        topic4_node = Node("Linus Torvalds sieht den Erfolg von Open-Source-Software "
+topic4_node = Node("Linus Torvalds sieht den Erfolg von Open-Source-Software "
                            "in einem pragmatischen Ansatz, der auf "
                            "Eigennutz und Vertrauen basiert. Für ihn steht im Vordergrund, "
                            "dass Open Source die Möglichkeit "
@@ -199,12 +186,12 @@ class GraphContentLinus:
                            "Computern oder Programmierung in Berührung kommen würden. \n\n"
                            "(Quelle 4)", "Einstellung von Linus zur Open Source Politik")
 
-        topic5_node = Node("-->Linus Torvalds und die Diskussionen um GNU/Linux \n\n"
+topic5_node = Node("-->Linus Torvalds und die Diskussionen um GNU/Linux \n\n"
                            "-->Verhältnis zu Richard Stallman und dem GNU-Projekt \n\n"
                            "-->Lizenzierung von Linux und die GNU General Public License (GPL) \n\n",
                            "GNU und Linux Debatten")
 
-        topic5v1_node = Node("Linus Torvalds und Richard Stallman führten Gespräche über die Benennung "
+topic5v1_node = Node("Linus Torvalds und Richard Stallman führten Gespräche über die Benennung "
                              "des Betriebssystems. "
                              "Stallman unterstrich die Rolle des GNU-Projekts in der Systementwicklung und "
                              "plädierte dafür, es "
@@ -219,7 +206,7 @@ class GraphContentLinus:
                              "(Quelle5)",
                              "Linus Torvalds und die Diskussionen um GNU/Linux")
 
-        topic5v2_node = Node("Die Auseinandersetzung über die Betriebssystembezeichnung "
+topic5v2_node = Node("Die Auseinandersetzung über die Betriebssystembezeichnung "
                              "spiegelt die Spannungen zwischen "
                              "Linus Torvalds und Richard Stallman wider. Stallman, "
                              "der das GNU-Projekt leitet, betonte die "
@@ -234,7 +221,7 @@ class GraphContentLinus:
                              "(Quelle 5)",
                              "Verhältnis zu Richard Stallman und dem GNU-Projekt")
 
-        topic5v3_node = Node("Die Diskussion über die Betriebssystembezeichnung wirft auch "
+topic5v3_node = Node("Die Diskussion über die Betriebssystembezeichnung wirft auch "
                              "Fragen zur Lizenzierung auf. "
                              "Stallman und das GNU-Projekt bevorzugten die Verwendung der GNU GPL, um sicherzustellen, "
                              "dass das System und seine Software Freie Software bleiben. Stallman "
@@ -257,7 +244,7 @@ class GraphContentLinus:
                              "(Quelle 5)",
                              "Lizenzierung von Linux und die GNU General Public License (GPL)")
 
-        topic6_node = Node("In der Industrie gewinnt Linux auf Enterprise-Desktops zunehmend an Akzeptanz. Unternehmen "
+topic6_node = Node("In der Industrie gewinnt Linux auf Enterprise-Desktops zunehmend an Akzeptanz. Unternehmen "
                            "setzen verstärkt auf Linux-Betriebssysteme, insbesondere auf Servern im Kontext "
                            "von Cloud- und "
                            "Container-Anwendungen. Die Attraktivität von Linux resultiert aus seiner Flexibilität,"
@@ -300,7 +287,7 @@ class GraphContentLinus:
                            "miteinander vernetzt sind und eine gute Handhabbarkeit sowie Unterstützung erfordern. \n\n"
                            "(Quelle 6, 7, 8)", "Anwendung von Linux in der Industrie")
 
-        topic7_node = Node("1. Nokia Foundation Award (1997)\n\n"
+topic7_node = Node("1. Nokia Foundation Award (1997)\n\n"
                            "2. Lifetime Achievement Award des Uniforums (1997)\n\n"
                            "3. Ehrendoktor der Universität Stockholm (1999): Die Universität Stockholm ernannte"
                            "Linus Torvalds 1999 zu ihrem bis dahin jüngsten Ehrendoktor.\n\n"
@@ -321,7 +308,7 @@ class GraphContentLinus:
                            "(Quelle 9,10)",
                            "Anerkennungen und Auszeichnungen")
 
-        topic8_node = Node("Reisen und Vorträge"
+topic8_node = Node("Reisen und Vorträge"
                            "Wenn man nach Reisen und Vorträge über Linus sucht, findet man nicht viel. "
                            "Das liegt aber an "
                            "Linus selbst. Er spricht davon, dass er sich mit"
@@ -344,7 +331,7 @@ class GraphContentLinus:
                            " sich hauptsächlich mit der Zukunft von Open Source. \n\n"
                            "(Quelle 11, 12, 13, 19)", "Reisen und Vorträge")
 
-        topic9_node = Node("Eines der bekanntesten Projekte neben Linux selber ist die Versionsverwaltung Git. "
+topic9_node = Node("Eines der bekanntesten Projekte neben Linux selber ist die Versionsverwaltung Git. "
                            "(Siehe mehr im Knoten „Entwicklung von der Versionsverwaltung git“) \n\n"
                            "Dennoch war dies nicht Linus einziges Projekt neben Linux. Linus Torvalds zeigt eine "
                            "leidenschaftliche Neigung zum Tauchen. Im Herbst 2011, als die "
@@ -377,7 +364,7 @@ class GraphContentLinus:
                            "(Quelle 15)",
                            "Weitere Projekte von Linus Torvald")
 
-        topic10_node = Node("Die Linux Foundation (LF) ist ein gemeinnütziges Technologie-Konsortium mit über 1.000 "
+topic10_node = Node("Die Linux Foundation (LF) ist ein gemeinnütziges Technologie-Konsortium mit über 1.000 "
                             "Mitgliedern, das sich der Finanzierung von Open-Source-Entwicklungen in der IT widmet. "
                             "Gegründet im Jahr 2007 durch den Zusammenschluss der "
                             "OSDL und der FSG, arbeitet die Stiftung "
@@ -417,7 +404,7 @@ class GraphContentLinus:
                             "(Quelle 16)",
                             "Linux Foundation")
 
-        topic11_node = Node("Versionsverwaltung git "
+topic11_node = Node("Versionsverwaltung git "
                             "Git ist das weltweit am meisten genutzte moderne Versionskontrollsystem, "
                             "das im Jahr 2005 von "
                             "Linus Torvalds, entwickelt wurde. Es handelt sich um ein ausgereiftes und "
@@ -483,7 +470,7 @@ class GraphContentLinus:
                             "(Quelle17)",
                             "Versionsverwaltung git")
 
-        topic12_node = Node("Über soziales Engagement von Linus Torvald ist wenig bekannt. Jedoch "
+topic12_node = Node("Über soziales Engagement von Linus Torvald ist wenig bekannt. Jedoch "
                             "spiegelt die Tatsache das "
                             "alle Entwicklungen von Linus Open Source sind wieder, dass ihm bewusst ist. "
                             "Das andere davon "
@@ -491,7 +478,7 @@ class GraphContentLinus:
                             "So gesehen trägt Linus zum Allgemeinwohl bei mit seinen Open Source Initiativen. ",
                             "Soziales Engagement und Wohltätigkeitsarbeit")
 
-        topic13_node = Node("Seine Vision war es, ein Betriebssystem zu entwickeln, das nicht nur "
+topic13_node = Node("Seine Vision war es, ein Betriebssystem zu entwickeln, das nicht nur "
                             "seinen eigenen Bedürfnissen "
                             "gerecht wurde, sondern auch für die Gemeinschaft zugänglich war. Torvalds "
                             "begann mit dem "
@@ -523,7 +510,7 @@ class GraphContentLinus:
                             "(Quelle 18)",
                             "Beitrag von Linux zur Open-Source Bewegung / Visionen von Linus Torvald")
 
-        topic14_node = Node("In den jungen Jahren hatte Linus Torvald bei der Entwicklung von Linux ein "
+topic14_node = Node("In den jungen Jahren hatte Linus Torvald bei der Entwicklung von Linux ein "
                             "ernsthaftes Problem. Er hatte einen Mangel Ressourcen. Es mangelte "
                             "an guter Hardware und Geld für bessere Hardware. \n\n"
                             "Zudem war Linus nicht alleine an dem Projekt beteiligt. Viele Programmierer "
@@ -537,7 +524,7 @@ class GraphContentLinus:
                             "(Quelle 2 , 19, 20)",
                             "Herausforderungen und Meilensteine (Entwicklung von Linux)")
 
-        topic15_node = Node("Linux hat einen erheblichen Einfluss auf die Technologiebranche ausgeübt "
+topic15_node = Node("Linux hat einen erheblichen Einfluss auf die Technologiebranche ausgeübt "
                             "und ist zu einem nicht weg zu denkenden Bestandteil in verschiedenen Bereichen "
                             "geworden. Als Betriebssystem, das frei verfügbar und quelloffen ist, hat Linux "
                             "eine breite Akzeptanz gefunden und dient als Grundlage für zahlreiche "
@@ -557,7 +544,7 @@ class GraphContentLinus:
                             "(Quelle21)",
                             "Gesamter langfristiger Einfluss von Linux auf die Technologiebranche")
 
-        sources_node = Node("1.Quelle:\n "
+sources_node = Node("1.Quelle:\n "
                             "https://www.zdnet.com/article/linus-torvalds-rust-will-go-into-linux-6-1/ \n"
                             "Zugriffszeit: 09:00 Uhr 27.11.2023\n\n "
                             "2.Quelle \n"
@@ -632,58 +619,4 @@ class GraphContentLinus:
                             "Zugriffszeit: 15:00 Uhr 28.11.2023\n\n",
                             "Quellenverzeichniss")
 
-        """
-        Hinzufügen zum Graphen
-        """
 
-        graph.add_new_node_to_graph(header_linus_node)
-        graph.add_new_node_to_graph(topic_node)
-        graph.add_new_node_to_graph(topic1_node)
-        graph.add_new_node_to_graph(topic2_node)
-        graph.add_new_node_to_graph(topic3_node)
-        graph.add_new_node_to_graph(topic3v1_node)
-        graph.add_new_node_to_graph(topic3v2_node)
-        graph.add_new_node_to_graph(topic3v3_node)
-        graph.add_new_node_to_graph(topic4_node)
-        graph.add_new_node_to_graph(topic5_node)
-        graph.add_new_node_to_graph(topic5v1_node)
-        graph.add_new_node_to_graph(topic5v2_node)
-        graph.add_new_node_to_graph(topic5v3_node)
-        graph.add_new_node_to_graph(topic6_node)
-        graph.add_new_node_to_graph(topic7_node)
-        graph.add_new_node_to_graph(topic8_node)
-        graph.add_new_node_to_graph(topic9_node)
-        graph.add_new_node_to_graph(topic10_node)
-        graph.add_new_node_to_graph(topic11_node)
-        graph.add_new_node_to_graph(topic12_node)
-        graph.add_new_node_to_graph(topic13_node)
-        graph.add_new_node_to_graph(topic14_node)
-        graph.add_new_node_to_graph(topic15_node)
-        graph.add_new_node_to_graph(sources_node)
-
-        """
-        Verbindungen der Knoten
-        """
-        header_linus_node.connect(topic_node)
-        header_linus_node.connect(topic1_node)
-        header_linus_node.connect(topic2_node)
-        header_linus_node.connect(topic3_node)
-        topic3_node.connect(topic3v1_node)
-        topic3_node.connect(topic3v2_node)
-        topic3_node.connect(topic3v3_node)
-        header_linus_node.connect(topic4_node)
-        header_linus_node.connect(topic5_node)
-        topic5_node.connect(topic5v1_node)
-        topic5_node.connect(topic5v2_node)
-        topic5_node.connect(topic5v3_node)
-        header_linus_node.connect(topic6_node)
-        header_linus_node.connect(topic7_node)
-        header_linus_node.connect(topic8_node)
-        header_linus_node.connect(topic9_node)
-        topic9_node.connect(topic11_node)
-        header_linus_node.connect(topic10_node)
-        header_linus_node.connect(topic12_node)
-        header_linus_node.connect(topic13_node)
-        header_linus_node.connect(topic14_node)
-        header_linus_node.connect(topic15_node)
-        header_linus_node.connect(sources_node)
