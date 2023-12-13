@@ -17,12 +17,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
+from GraphDennisKliewer import GraphDennisKliewer
 
 
 class GraphContent:
 
     def __init__(self, graph: Graph):
         self.create_demo_nodes(graph)
+
 
     def create_demo_nodes(self, graph):
         """
