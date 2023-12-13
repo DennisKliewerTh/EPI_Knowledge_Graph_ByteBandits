@@ -20,6 +20,10 @@ import sys
 
 from GraphContentLinus import GraphContentLinus
 from GraphContent import GraphContent
+
+from GraphDennisKliewer import GraphDennisKliewer
+from Structured_Knowledge_Graph_Example.MyGraphExample import MyGraphExample
+
 from View.ApplicationLoopManager import ApplicationLoopManager
 from ComponentAssembly.ComponentAssembler import ComponentAssembler
 from GraphModel.Graph import Graph
@@ -29,10 +33,10 @@ if __name__ == '__main__':
     graph = Graph()
 
     graph.team_name = "Byte Bandits"
-    graph_content = GraphContent(graph), GraphContentLinus(graph)
+    graph_content = GraphContent(graph), GraphContentLinus(graph), GraphDennisKliewer(graph)
 
     # beautiful_code_graph = MyGraphExample(graph)
-
+    # test
     # Application
     component_assembler = ComponentAssembler(graph, False)
     main = ApplicationLoopManager(component_assembler)
