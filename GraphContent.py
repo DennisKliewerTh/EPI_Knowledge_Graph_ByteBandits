@@ -17,6 +17,10 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
+from Josip_Directory.Teating_Grounds import Bill_Intro, Kindheit_Fruh, Kindheit_Spaet, Vor_Microsoft, Harvard, \
+    Microsoft_Anfang, IBM_DOS, Microsoft_Windows, Microsoft_Andere, Monopol, Ehe, Bill_Image, \
+    Kontroverse_Klein, Kontroverse_Epstein, Kontroverse_Pandemie, Kontroverse_Klima, Religion, Vermoegen, Fazit, \
+    Ehre, Facts, Quellen
 from Onour_Directory.Onour_Content import Alan_Turing_1, Alan_Turing_2, Alan_Turing_3, Alan_Turing_4, Alan_Turing_5,\
     Alan_Turing_6, Alan_Turing_7, Alan_Turing_8, Alan_Turing_9, Alan_Turing_10, Alan_Turing_11, Alan_Turing_13,\
     Alan_Turing_12, Alan_Turing_19, Alan_Turing_14, Alan_Turing_15, Alan_Turing_16, Alan_Turing_17, Alan_Turing_18, \
@@ -27,9 +31,11 @@ class GraphContent:
     def __init__(self, graph: Graph):
         self.create_demo_nodes(graph)
         self.create_demo_nodes2(graph)
+        self.create_demo_nodes3(graph)
 
 
-    def create_demo_nodes(self, graph):
+    @staticmethod
+    def create_demo_nodes(graph):
 
 
         steve_jobs = Node("Steve Paul Jobs war ein Unternehmer und begeisterter Elektroniker, er gründete"
@@ -617,6 +623,31 @@ class GraphContent:
         graph.add_new_node_to_graph(Onour_Source_2)
         graph.add_new_node_to_graph(Onour_Source_3)
 
-        central_node = Node("Die bekanntesten Informatiker:innen und Ihre Beiträge zum Fachgebiet",
-                            "Thema des Graphen")
-        graph.add_new_node_to_graph(central_node)
+    @staticmethod
+    def create_demo_nodes3(graph):
+            """
+            Diese Methode dient Ihnen also Demonstration für den Aufbau eines Graphen.
+            """
+
+            graph.add_new_node_to_graph(Bill_Intro)
+            graph.add_new_node_to_graph(Kindheit_Fruh)
+            graph.add_new_node_to_graph(Kindheit_Spaet)
+            graph.add_new_node_to_graph(Vor_Microsoft)
+            graph.add_new_node_to_graph(Harvard)
+            graph.add_new_node_to_graph(Microsoft_Anfang)
+            graph.add_new_node_to_graph(IBM_DOS)
+            graph.add_new_node_to_graph(Microsoft_Windows)
+            graph.add_new_node_to_graph(Microsoft_Andere)
+            graph.add_new_node_to_graph(Monopol)
+            graph.add_new_node_to_graph(Ehe)
+            graph.add_new_node_to_graph(Bill_Image)
+            graph.add_new_node_to_graph(Kontroverse_Klein)
+            graph.add_new_node_to_graph(Kontroverse_Epstein)
+            graph.add_new_node_to_graph(Kontroverse_Pandemie)
+            graph.add_new_node_to_graph(Kontroverse_Klima)
+            graph.add_new_node_to_graph(Religion)
+            graph.add_new_node_to_graph(Vermoegen)
+            graph.add_new_node_to_graph(Fazit)
+            graph.add_new_node_to_graph(Ehre)
+            graph.add_new_node_to_graph(Facts)
+            graph.add_new_node_to_graph(Quellen)
