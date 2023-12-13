@@ -27,6 +27,7 @@ from GraphModel.Graph import Graph
 if __name__ == '__main__':
     # Graph
     graph = Graph()
+
     graph.team_name = "Byte Bandits"
     graph_content = GraphContent(graph), GraphContentLinus(graph)
 
